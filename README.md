@@ -7,14 +7,16 @@ A curated collection of reusable GPT Image 2.5 prompts and workflows shared by r
 
 **[Browse the visual gallery](<https://magiccreator.ai/gpt-image-2-5-prompts>)** · [Try GPT Image 2.5](<https://magiccreator.ai/model/gpt-image-2-5>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **5 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **22 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
-- [Precise edits](#precise-edits) (1)
-- [Products and ads](#product-and-ads) (2)
-- [Creative generation](#creative-generation) (1)
-- [Reference consistency](#reference-consistency) (1)
+- [Precise edits](#precise-edits) (2)
+- [Products and ads](#product-and-ads) (3)
+- [Creative generation](#creative-generation) (4)
+- [Reference consistency](#reference-consistency) (6)
+- [Text and layout](#text-and-layout) (5)
+- [Sketch to image](#sketch-to-image) (2)
 - [Suggest a prompt](#suggest-a-prompt)
 
 <a id="precise-edits"></a>
@@ -56,6 +58,32 @@ Replace the cleanup target with your own issue, such as compression, blur or scr
 **Shared by:** [Keigo Matsumaru](<https://x.com/k_matsumaru>)
 
 [Original post on X](<https://x.com/k_matsumaru/status/2097506834659893340>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#restore-low-resolution-frame>)
+
+<a id="move-lamp-preserve-lighting"></a>
+
+### Move a Lamp While Recomputing the Lighting
+
+[![Room edit showing a lamp moved to the right with adjusted lighting](<https://pbs.twimg.com/media/HRvacfWbcAAswbV.jpg>)](<https://x.com/higgsfield_ai/status/2097515081802379736>)
+
+A single-object edit relocates a lamp and updates the illumination while preserving the rest of the room.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+Move the lamp to the right
+```
+
+#### How to adapt it
+
+Name one object and one destination. Keep the instruction minimal when you want to test whether shadows, spill light and nearby surfaces update without unrelated changes.
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097515081802379736>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#move-lamp-preserve-lighting>)
 
 <a id="product-and-ads"></a>
 
@@ -119,6 +147,32 @@ Keep the first sentence to preserve the product, then replace the surface, setti
 
 [Original post on X](<https://x.com/cgtwts/status/2097456916335383025>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#controlled-product-studio-shot>)
 
+<a id="ugc-app-promo-starting-frame"></a>
+
+### Create Consistent UGC Starting Frames for an App
+
+[![Four UGC-style app promotion starting frames generated with GPT Image 2.5 Sunburst](<https://pbs.twimg.com/media/HRu8pa0WUAAF-SG.jpg>)](<https://x.com/eptwts/status/2097477534057128376>)
+
+A four-variant contact sheet keeps an uploaded app screen readable while changing the creator, pose and home setting for UGC video openings.
+
+**Model:** GPT Image 2.5 Sunburst · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Prompt shown in the source image** · `en`
+
+```text
+create a HQ hyper-realistic photo of a gen Z girl holding a phone up with this screen showing an app exactly like the reference photo in a UGC style video first frame
+```
+
+#### How to adapt it
+
+Upload a clean screenshot of your own app, keep the instruction to reproduce the screen exactly, and vary the creator profile, expression or room while preserving a phone-forward composition.
+
+**Shared by:** [EP](<https://x.com/eptwts>)
+
+[Original post on X](<https://x.com/eptwts/status/2097477534057128376>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#ugc-app-promo-starting-frame>)
+
 <a id="creative-generation"></a>
 
 ## Creative generation
@@ -151,6 +205,90 @@ Replace the woodland clearing with another detail-heavy subject, then keep the p
 
 [Original post on X](<https://x.com/mark_k/status/2097411028510179759>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#woodland-noise-artifact-test>)
 
+<a id="goblin-archer-sprite-sheet"></a>
+
+### Create a 16-Frame Goblin Archer Sprite Sheet
+
+[![Animated pixel-art goblin archer generated from a 16-frame sprite sheet](<https://pbs.twimg.com/tweet_video_thumb/HRwEaI1aAAAk6UX.jpg>)](<https://x.com/Fomsky_Wei/status/2097559943075533257>)
+
+Generate the full draw-and-fire motion as a pixel-art sprite sheet, then cut the frames into a looping animation.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+#### Prompts
+
+**Original Chinese prompt** · `zh`
+
+```text
+不要使用技能，制作一张精灵图。这张图包含一名像素风男性哥布林拉弓箭射出的过程，总计16帧。然后将该图切图，并制作成永动GIF。
+```
+
+**English translation** · `en`
+
+```text
+Without using a skill, create a sprite sheet containing the full motion of a male pixel-art goblin drawing and firing a bow, for a total of 16 frames. Then slice the sheet into frames and make a seamless looping GIF.
+```
+
+#### How to adapt it
+
+Replace the goblin, weapon and action while keeping the frame count and seamless-loop requirement explicit. Export the sheet first, then slice and time the frames in a separate step.
+
+**Shared by:** [FomskyWei](<https://x.com/Fomsky_Wei>)
+
+[Original post on X](<https://x.com/Fomsky_Wei/status/2097559943075533257>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#goblin-archer-sprite-sheet>)
+
+<a id="cybernetic-horror-portrait"></a>
+
+### Create a Monochrome Cybernetic Horror Portrait
+
+[![Cybernetic horror portrait with a cracked mask and cables](<https://pbs.twimg.com/media/HRwGeNGa0AAEpHk.jpg>)](<https://x.com/meng_dagg695/status/2097558679956664521>)
+
+Combine cracked porcelain, asymmetrical mechanical eye sockets and dense cabling in a high-contrast photographic portrait.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+Cybernetic horror portrait, gaunt humanoid figure with cracked porcelain-white skull-like mask, mismatched hollow eye sockets (one sunken void, one recessed metallic ring), jagged exposed teeth, surrounded by a chaotic tangle of thick black cables and industrial bobbin/coil attachments wired into the head, tattered dark fabric top, dramatic low-key lighting, deep black background, high contrast monochrome, horror photography, cinematic, hyperdetailed texture, 85mm lens, shallow depth.
+```
+
+#### How to adapt it
+
+Keep the material, lighting and lens clauses, then replace the mask, eye asymmetry and attached machinery to design a different creature while preserving the photographic treatment.
+
+**Shared by:** [Shahid Wani](<https://x.com/meng_dagg695>)
+
+[Original post on X](<https://x.com/meng_dagg695/status/2097558679956664521>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#cybernetic-horror-portrait>)
+
+<a id="dreamy-qipao-portrait"></a>
+
+### Create a Dreamy High-Angle Qipao Portrait
+
+[![Dreamy high-angle fashion portrait of a woman wearing a qipao](<https://pbs.twimg.com/media/HRvdLStaoAAAkSy.jpg>)](<https://x.com/BubbleBrain/status/2097513469172129825>)
+
+A short portrait prompt produces a vertical fashion image with soft bloom, a steep camera angle and a delicately lit traditional interior.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+9:16, wearing a qipao, soft light bloom, dreamy blur, high-angle shot looking down, tall slender model figure, refined makeup, fox-like beauty face
+```
+
+#### How to adapt it
+
+Keep the aspect ratio, camera angle and light treatment, then replace the garment, makeup and environment to create a different editorial portrait.
+
+**Shared by:** [BubbleBrain](<https://x.com/BubbleBrain>)
+
+[Original post on X](<https://x.com/BubbleBrain/status/2097513469172129825>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#dreamy-qipao-portrait>)
+
 <a id="reference-consistency"></a>
 
 ## Reference consistency
@@ -180,6 +318,262 @@ Use this once after uploading your base image. In each follow-up, name only one 
 **Shared by:** [Xiaohu](<https://x.com/xiaohu>)
 
 [Original post on X](<https://x.com/xiaohu/status/2097486974261362853>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#lock-a-base-image-for-edits>)
+
+<a id="clay-stop-motion-sequence"></a>
+
+### Build a Clay Stop-Motion Sequence Frame by Frame
+
+[![Clay caterpillar stop-motion sequence generated with GPT Image 2.5](<https://pbs.twimg.com/amplify_video_thumb/2097398948126445568/img/p5_zWBwWwelDk2Pm.jpg>)](<https://x.com/charlierguo/status/2097399137142772071>)
+
+A short stop-motion clip assembled from GPT Image 2.5 frames while keeping the clay character and handcrafted scene coherent.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Charlie Guo](<https://x.com/charlierguo>)
+
+[Original post on X](<https://x.com/charlierguo/status/2097399137142772071>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#clay-stop-motion-sequence>)
+
+<a id="rotating-cube-frame-stability"></a>
+
+### Keep a Rotating Object Stable Across 150 Frames
+
+[![GPT Image 2 and 2.5 cube rotation stability comparison](<https://pbs.twimg.com/amplify_video_thumb/2097398471246635008/img/FLYPhIH1_Jg34Rn4.jpg>)](<https://x.com/chetaslua/status/2097400738096062755>)
+
+A side-by-side rotation test shows a blue cube holding its position, scale and background more consistently across generated frames.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** 1 image
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Chetaslua](<https://x.com/chetaslua>)
+
+[Original post on X](<https://x.com/chetaslua/status/2097400738096062755>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#rotating-cube-frame-stability>)
+
+<a id="robot-nine-round-edit-sequence"></a>
+
+### Carry a Robot Through Nine Consecutive Edits
+
+[![Nine-round robot edit comparison between GPT Image 2 and GPT Image 2.5 Flare](<https://pbs.twimg.com/amplify_video_thumb/2097478204055556096/img/k3LUsecrIzgwwSFG.jpg>)](<https://x.com/ctgptlb/status/2097479691368337900>)
+
+A robot picks up, raises and returns a glowing star over nine chained edits while its face, materials and background stay recognizable.
+
+**Model:** GPT Image 2.5 Flare · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompts
+
+**Published action sequence** · `ja`
+
+```text
+星を拾う→持ち上げる→元に戻す
+```
+
+**English translation** · `en`
+
+```text
+Pick up the star, raise it, then return it to its original position.
+```
+
+#### How to adapt it
+
+Start from one character image, define a short reversible action and feed every result into the next turn. Compare the final frame with the first for identity, texture and background drift.
+
+**Shared by:** [AGI Lab](<https://x.com/ctgptlb>)
+
+[Original post on X](<https://x.com/ctgptlb/status/2097479691368337900>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#robot-nine-round-edit-sequence>)
+
+<a id="thirty-six-frame-stop-motion"></a>
+
+### Animate a Character With 36 Generated Frames
+
+[![Stop-motion character made from 36 GPT Image 2.5 frames](<https://pbs.twimg.com/amplify_video_thumb/2097443023802322944/img/6XjEVKSNQji430fx.jpg>)](<https://x.com/ivanainai/status/2097446105906553188>)
+
+Thirty-six GPT Image 2.5 images were stitched in Codex into a six-second stop-motion clip without a video model.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Ivana](<https://x.com/ivanainai>)
+
+[Original post on X](<https://x.com/ivanainai/status/2097446105906553188>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#thirty-six-frame-stop-motion>)
+
+<a id="twelve-moment-street-photo-grid"></a>
+
+### Generate Twelve Consistent Moments in One Street-Photo Grid
+
+[![Twelve-moment street-photo consistency grid](<https://pbs.twimg.com/media/HRwIfXJbgAA79Cu.jpg>)](<https://x.com/ZeroZ_JQ/status/2097560885606973599>)
+
+A single contact sheet varies pose, gaze and framing across twelve moments while keeping the same person, outfit, street and light.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Guan Mu](<https://x.com/ZeroZ_JQ>)
+
+[Original post on X](<https://x.com/ZeroZ_JQ/status/2097560885606973599>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#twelve-moment-street-photo-grid>)
+
+<a id="text-and-layout"></a>
+
+## Text and layout
+
+Prompts for typography, structured graphics and layout-sensitive images.
+
+<a id="clean-text-generation-showcase"></a>
+
+### Generate Clean Text Across Multiple Visual Styles
+
+[![GPT Image 2.5 text-rendering showcase image one](<https://pbs.twimg.com/media/HRuXOJoXoAAizn_.jpg>)](<https://x.com/LuminaBench/status/2097439794284392540>)
+
+A four-image showcase tests readable text inside photographic, editorial and graphic compositions.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Lumina](<https://x.com/LuminaBench>)
+
+[Original post on X](<https://x.com/LuminaBench/status/2097439794284392540>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#clean-text-generation-showcase>)
+
+<a id="collision-free-math-diagrams"></a>
+
+### Lay Out Classroom Diagrams Without Label Collisions
+
+[![Labeled mathematics diagram generated in one shot](<https://pbs.twimg.com/media/HRwGa4FaYAEU_HI.jpg>)](<https://x.com/msdkim0424/status/2097558747124277308>)
+
+A one-shot set of educational diagrams keeps equations, axes, labels and callouts legible and spatially separated.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Minsang Daniel Kim](<https://x.com/msdkim0424>)
+
+[Original post on X](<https://x.com/msdkim0424/status/2097558747124277308>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#collision-free-math-diagrams>)
+
+<a id="turn-portrait-into-tiktok-live-screen"></a>
+
+### Turn a Portrait Into a TikTok Live Screen
+
+[![Vertical TikTok Live interface generated from the portrait](<https://pbs.twimg.com/media/HRwFpi_aAAAy0Oz.jpg>)](<https://x.com/sakisuta_/status/2097558697174294896>)
+
+Use a portrait as the subject reference and rebuild it as a believable vertical livestream interface.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompts
+
+**Original Japanese prompt** · `ja`
+
+```text
+画像の女性が手持ちのスマホでTikTokライブしているライブ画面を作成して。
+```
+
+**English translation** · `en`
+
+```text
+Create a TikTok Live screen showing the woman in the image livestreaming with the phone in her hand.
+```
+
+#### How to adapt it
+
+Replace TikTok Live with another recognizable vertical app surface and state what the subject should be doing. Supply a clean portrait if identity preservation matters.
+
+**Shared by:** [Sakisuta AI artist](<https://x.com/sakisuta_>)
+
+[Original post on X](<https://x.com/sakisuta_/status/2097558697174294896>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#turn-portrait-into-tiktok-live-screen>)
+
+<a id="japanese-ramen-advertising-pop"></a>
+
+### Design a Japanese Ramen Advertising Pop
+
+[![Japanese ramen advertising pop with bold readable type](<https://pbs.twimg.com/media/HRwF_T8bUAAPAnq.jpg>)](<https://x.com/kiyoshi_shin/status/2097558667059155070>)
+
+A natural-looking ramen photo is combined with large Japanese display type, pricing and layered promotional accents.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Kiyoshi Shin](<https://x.com/kiyoshi_shin>)
+
+[Original post on X](<https://x.com/kiyoshi_shin/status/2097558667059155070>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#japanese-ramen-advertising-pop>)
+
+<a id="four-page-spanish-learning-unit"></a>
+
+### Generate a Four-Page Spanish Learning Unit
+
+[![First page of a GPT Image 2.5 Spanish learning unit](<https://pbs.twimg.com/media/HRwGPHIbMAAddAj.jpg>)](<https://x.com/KevinYu77034270/status/2097558397801677170>)
+
+A structured bilingual lesson uses headings, objectives, vocabulary groups, icons and illustrations across four coordinated pages.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Kevin Yuan](<https://x.com/KevinYu77034270>)
+
+[Original post on X](<https://x.com/KevinYu77034270/status/2097558397801677170>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#four-page-spanish-learning-unit>)
+
+<a id="sketch-to-image"></a>
+
+## Sketch to image
+
+Prompts that turn rough visual direction into a finished image.
+
+<a id="sketch-guided-composition-change"></a>
+
+### Change a Composition With a Rough Sketch
+
+[![Recomposed surreal image produced from the sketch](<https://pbs.twimg.com/media/HRutuxdaQAAumX3.jpg>)](<https://x.com/Synthetic_Copy/status/2097461076866560320>)
+
+A minimal sketch redirects the composition while the source image's surreal editorial style and material details remain intact.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 2 images
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+change the composition to this
+```
+
+#### How to adapt it
+
+Provide one style-bearing source image and one unambiguous composition sketch. Keep the text instruction short so the sketch carries the spatial change.
+
+**Shared by:** [Synthetic\_soul](<https://x.com/Synthetic_Copy>)
+
+[Original post on X](<https://x.com/Synthetic_Copy/status/2097461076866560320>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#sketch-guided-composition-change>)
+
+<a id="turn-sketch-into-future-building"></a>
+
+### Turn a Rough Sketch Into a Future Building
+
+[![Futuristic architectural concept generated from the sketch](<https://pbs.twimg.com/media/HRvUPvMaIAAMWkE.jpg>)](<https://x.com/peter6759/status/2097503664789430530>)
+
+A tiny architectural doodle becomes a polished wide-format concept image while preserving the sketch's central silhouette.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+turn it into a future building
+```
+
+#### How to adapt it
+
+Upload a simple silhouette sketch and replace the building type with your target object or structure. Add material and environment constraints only if the first interpretation is too open-ended.
+
+**Shared by:** [zdhpeter](<https://x.com/peter6759>)
+
+[Original post on X](<https://x.com/peter6759/status/2097503664789430530>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#turn-sketch-into-future-building>)
 
 <a id="suggest-a-prompt"></a>
 
