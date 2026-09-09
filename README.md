@@ -7,16 +7,16 @@ A curated collection of reusable GPT Image 2.5 prompts and workflows shared by r
 
 **[Browse the visual gallery](<https://magiccreator.ai/gpt-image-2-5-prompts>)** · [Try GPT Image 2.5](<https://magiccreator.ai/model/gpt-image-2-5>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **22 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **38 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
 - [Precise edits](#precise-edits) (2)
 - [Products and ads](#product-and-ads) (3)
-- [Creative generation](#creative-generation) (4)
-- [Reference consistency](#reference-consistency) (6)
+- [Creative generation](#creative-generation) (12)
+- [Reference consistency](#reference-consistency) (12)
 - [Text and layout](#text-and-layout) (5)
-- [Sketch to image](#sketch-to-image) (2)
+- [Sketch to image](#sketch-to-image) (4)
 - [Suggest a prompt](#suggest-a-prompt)
 
 <a id="precise-edits"></a>
@@ -289,6 +289,178 @@ Keep the aspect ratio, camera angle and light treatment, then replace the garmen
 
 [Original post on X](<https://x.com/BubbleBrain/status/2097513469172129825>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#dreamy-qipao-portrait>)
 
+<a id="evolution-hand-tracking"></a>
+
+### Generate an Evolution Timeline for a Hand-Tracking Experience
+
+[![GPT Image 2.5 evolution visuals inside an Astra-built hand-tracking experience](<https://pbs.twimg.com/amplify_video_thumb/2097439242372968448/img/ScszM1Pi6hhYFmaj.jpg>)](<https://x.com/higgsfield_ai/status/2097442296203759946>)
+
+GPT Image 2.5 supplies the visuals for a hand-tracked journey from the first cell to modern humans, with Astra building the interaction.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097442296203759946>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#evolution-hand-tracking>)
+
+<a id="arena-zero-iphone-fighter"></a>
+
+### Create Visual Assets for an iPhone Arena Fighter
+
+[![Arena Zero iPhone fighting game using GPT Image 2.5 visuals and Astra](<https://pbs.twimg.com/amplify_video_thumb/2097469520470478848/img/QonJEdt4G7P8l7tP.jpg>)](<https://x.com/higgsfield_ai/status/2097470354897740109>)
+
+GPT Image 2.5 generates imagery for a Unity fighting game that Astra assembles with touch controls, animation clips and mobile-ready 3D assets.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097470354897740109>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#arena-zero-iphone-fighter>)
+
+<a id="snakes-and-ladders-unreal"></a>
+
+### Build Visual Assets for Snakes and Ladders in Unreal
+
+[![Snakes and Ladders Unreal Engine scene using GPT Image 2.5 assets](<https://pbs.twimg.com/amplify_video_thumb/2097462407241342976/img/UNoEtfy2Bxqkq1jW.jpg>)](<https://x.com/higgsfield_ai/status/2097464282829168955>)
+
+GPT Image 2.5 assets feed an Astra-built Unreal Engine remake, with Blender used for its 3D animation.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097464282829168955>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#snakes-and-ladders-unreal>)
+
+<a id="cube-city-image-to-blender"></a>
+
+### Turn a Generated Cube City Into a Blender Scene
+
+[![GPT Image 2.5 cube-city concept reconstructed in Blender by Astra](<https://pbs.twimg.com/amplify_video_thumb/2097505780085993472/img/6zfwunEdVDTWlZK4.jpg>)](<https://x.com/old_pgmrs_will/status/2097506064078147861>)
+
+A cube-city concept generated with GPT Image 2.5 becomes the visual reference for Astra's Blender reconstruction.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Will Oldgram](<https://x.com/old_pgmrs_will>)
+
+[Original post on X](<https://x.com/old_pgmrs_will/status/2097506064078147861>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#cube-city-image-to-blender>)
+
+<a id="panorama-video-workshop"></a>
+
+### Build a 360° Video Workshop Around a Generated Panorama
+
+[![Astra-built 360-degree video workshop using a ChatGPT Images 2.5 panorama](<https://pbs.twimg.com/amplify_video_thumb/2097518125361328128/img/CkFTCxvLT3rZM821.jpg>)](<https://x.com/KanaWorks_AI/status/2097518459596972066>)
+
+A ChatGPT Images 2.5 panorama feeds an Astra-built tool for compositing character video and exporting YouTube-ready 360° footage.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+#### Prompts
+
+**Original Japanese build instruction** · `ja`
+
+```text
+360°パノラマ画像とキャラクター動画をアップロードし、動画の背景を除去。キャラクターの位置やサイズをドラッグで調整しながらリアルタイムでプレビューでき、アニメーションのループ設定にも対応。最後に、YouTube 360°用のメタデータを付与したMP4をワンクリックで書き出せる“パノラマ動画工房”を作って。
+```
+
+**English translation** · `en`
+
+```text
+Build a panorama video workshop that accepts a 360° panorama image and a character video, removes the video's background, previews draggable character position and size changes in real time, supports animation looping, and exports an MP4 with YouTube 360° metadata in one click.
+```
+
+#### How to adapt it
+
+Replace the panorama and character clip with your own assets. Keep background removal, draggable placement, looping and metadata export as separate acceptance criteria so Astra can verify each stage.
+
+**Shared by:** [KANA｜東京AI映像](<https://x.com/KanaWorks_AI>)
+
+[Original post on X](<https://x.com/KanaWorks_AI/status/2097518459596972066>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#panorama-video-workshop>)
+
+<a id="astra-rigged-threejs-character"></a>
+
+### Turn an Image-Generated Character Into an Animated Three.js Model
+
+[![Character created with GPT Image 2.5 and Tripo3D, then rigged and animated by Astra](<https://pbs.twimg.com/amplify_video_thumb/2097560639455514624/img/IBFogCwcmIJtgTlc.jpg>)](<https://x.com/SimonasLTU1/status/2097561634076016774>)
+
+ChatGPT Images 2.5 and Tripo3D produce a GLB before Astra rigs and animates it for a Three.js browser scene.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Simonas](<https://x.com/SimonasLTU1>)
+
+[Original post on X](<https://x.com/SimonasLTU1/status/2097561634076016774>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#astra-rigged-threejs-character>)
+
+<a id="gpt-image-fighting-animation"></a>
+
+### Test GPT Image 2.5 Artwork in a Fighting-Game Animation
+
+[![First-pass fighting-game animation made with GPT Image 2.5 and Astra Pro](<https://pbs.twimg.com/tweet_video_thumb/HRugpr4aIAAXCvu.jpg>)](<https://x.com/YuK1_Game/status/2097446904942780699>)
+
+A first-pass fighting animation combines artwork from GPT Image 2.5 with Astra Pro's implementation work.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [YuK1](<https://x.com/YuK1_Game>)
+
+[Original post on X](<https://x.com/YuK1_Game/status/2097446904942780699>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#gpt-image-fighting-animation>)
+
+<a id="character-combat-sprite-sheet"></a>
+
+### Turn a Character Reference Into a Combat Sprite Sheet
+
+[![Four-by-four pixel-art combat motion sprite sheet derived from a character reference](<https://pbs.twimg.com/media/HRuLMxZaQAAZfOo.jpg>)](<https://x.com/8co28/status/2097423580229521849>)
+
+Simplify a character into 128-pixel combat poses, arrange sixteen frames in a 4 × 4 sheet, then clean the background and align the frames for a GIF.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** 1 image
+
+#### Prompts
+
+**Original Japanese sprite-sheet instruction** · `ja`
+
+```text
+このキャラクターの128pxの簡略化されたpixelartの戦闘モーションのスプライトシートを作って。透過できるなら透過。4x4で配置すること
+```
+
+**English translation** · `en`
+
+```text
+Create a combat-motion sprite sheet of this character as simplified 128 px pixel art. Make the background transparent if possible, and arrange the frames in a 4 × 4 grid.
+```
+
+**Original Japanese cleanup instruction** · `ja`
+
+```text
+背景を透過した後4x4で分解して位置合わせしてgifにして
+```
+
+**English translation** · `en`
+
+```text
+After making the background transparent, split the 4 × 4 sheet, align the frames and turn them into a GIF.
+```
+
+#### How to adapt it
+
+Replace the character reference and specify the combat sequence you need. Keep pixel dimensions, grid order and alignment fixed, then perform transparency cleanup and GIF assembly as a separate pass.
+
+**Shared by:** [852話(hakoniwa)](<https://x.com/8co28>)
+
+[Original post on X](<https://x.com/8co28/status/2097423580229521849>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#character-combat-sprite-sheet>)
+
 <a id="reference-consistency"></a>
 
 ## Reference consistency
@@ -414,6 +586,195 @@ _The creator did not publish a reusable prompt for this example._
 **Shared by:** [Guan Mu](<https://x.com/ZeroZ_JQ>)
 
 [Original post on X](<https://x.com/ZeroZ_JQ/status/2097560885606973599>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#twelve-moment-street-photo-grid>)
+
+<a id="otter-hawker-stop-motion"></a>
+
+### Keep an Otter and Hawker Stall Consistent Across 99 Frames
+
+[![Consistent otter and hawker stall frames generated with GPT Image 2.5 Sunburst](<https://pbs.twimg.com/media/HRvcfILa4AAyiwX.jpg>)](<https://x.com/gabrielchua/status/2097512638704197681>)
+
+Ninety-nine GPT Image 2.5 Sunburst frames preserve the characters and stall across edits before Astra assembles the stop-motion film.
+
+**Model:** GPT Image 2.5 Sunburst · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Gabriel Chua](<https://x.com/gabrielchua>)
+
+[Original post on X](<https://x.com/gabrielchua/status/2097512638704197681>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#otter-hawker-stop-motion>)
+
+<a id="facial-tracking-avatar-app"></a>
+
+### Generate Avatar Expressions for Facial Tracking
+
+[![GPT Image 2.5 expression variants responding through an Astra-built tracking app](<https://pbs.twimg.com/amplify_video_thumb/2097429685714272256/img/tq-Dq-hKk6dRPqPH.jpg>)](<https://x.com/nemumusitocha/status/2097430181095125251>)
+
+GPT Image 2.5 creates a set of facial expressions that an Astra-built app maps to iFacialMocap tracking.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [しとちゃ！🦊🍮](<https://x.com/nemumusitocha>)
+
+[Original post on X](<https://x.com/nemumusitocha/status/2097430181095125251>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#facial-tracking-avatar-app>)
+
+<a id="last-dish-storyboard-workflow"></a>
+
+### Design a Cast and Storyboard Before Generating a Film Scene
+
+[![The Last Dish film scene above its GPT Image 2.5 storyboard and cast references](<https://pbs.twimg.com/amplify_video_thumb/2097519499226632192/img/LZ-m5NC6xwieci8e.jpg>)](<https://x.com/EHuanglu/status/2097519538632024103>)
+
+GPT Image 2.5 creates consistent character sheets, props, a kitchen reference and a detailed storyboard before Seedance 2.5 turns the package into a film scene.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+#### Prompts
+
+**Guest character-sheet prompt** · `en`
+
+```text
+Character-design reference sheet on a clean light cream background, laid out like an official animation model sheet, all views showing the SAME character, fully consistent. Top-left a title block reading "GUEST". Center: FRONT and SIDE full-body turnaround of a short, round, rumpled stylized 3D animated man — heavy build, slumped shoulders, a crumpled untucked shirt with the collar askew, a loose dark tie hanging, messy hair, dark circles under the eyes, thick stubble. Right: two poses — slumped face-down over a counter with arms hanging; sitting bolt upright, both hands flat on the counter. Bottom: an EXPRESSION strip of six captioned close-ups — hollow defeated stare / flinching, shoulders up around the ears / mid-sneeze, eyes screwed shut / eyes going wide, jaw slack with wonder / mouth full, eyes squeezed shut, a single fat tear rolling / an enormous open joyful grin. Also one small prop panel: a sad soggy paper takeaway box with a plastic fork stuck in cold noodles. Stylized 3D feature-animation rendering, appealing cartoon shapes, warm soft studio lighting, clean minimal English labels only, no text elsewhere, no logos.
+```
+
+**Chef character-sheet prompt** · `en`
+
+```text
+Character-design reference sheet on a clean light cream background, laid out like an official animation model sheet, all views showing the SAME character, fully consistent. Top-left a title block reading "CHEF". Center: FRONT and SIDE full-body turnaround of a tall, lean, long-limbed stylized 3D animated chef — exaggerated proportions with very long arms and legs, a small head, an immaculate double-breasted white chef jacket, a long white apron to the shins, dark trousers, a neat dark moustache, heavy calm eyebrows. Right: three ACTION poses — sleeves being rolled up with a hard stare; mid-stride at full sprint with the apron streaming behind; both arms out wide holding a copper pan in each hand. Bottom: an EXPRESSION strip of four captioned close-ups — flat unimpressed stare / eyes narrowing, one brow lifting, sleeves going up / total focus, tongue tip at the corner of the mouth / a small proud closed-mouth smirk with the chin lifted. Stylized 3D feature-animation rendering, appealing cartoon shapes, warm soft studio lighting, clean minimal English labels only, no text elsewhere, no logos.
+```
+
+#### How to adapt it
+
+Replace the two character briefs, prop and location while keeping each role's turnaround, action poses and expression set explicit. Build the visual reference pack before writing the final video prompt.
+
+**Shared by:** [el.cine](<https://x.com/EHuanglu>)
+
+[Original post on X](<https://x.com/EHuanglu/status/2097519538632024103>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#last-dish-storyboard-workflow>)
+
+<a id="reference-to-pixel-idle-animation"></a>
+
+### Turn a Character Reference Into a Pixel-Art Idle Animation
+
+[![Sixteen-frame chibi pixel-art idle animation sprite sheet](<https://pbs.twimg.com/media/HRvu19vakAAfhwQ.jpg>)](<https://x.com/Mayz1169/status/2097533706022056339>)
+
+Convert an uploaded character into a consistent 16-frame chibi pixel-art sprite sheet, then export the transparent sheet, looping GIF and individual frames.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** 1 image
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+Turn the character in my uploaded reference image into an adorable pixel-art sprite with a looping idle animation.
+
+CHARACTER
+Use the uploaded image as the character reference. Preserve the character’s recognizable features, colors, hairstyle, outfit, accessories, and distinctive silhouette. Adapt its original anatomy into cute chibi proportions without forcing non-human characters into a human body. If the reference is cropped, infer the missing body details to match the visible design.
+
+STYLE
+Create crisp pixel art with clearly defined square pixels, clean outlines, and a cohesive limited palette. No blurry edges, smooth vector styling, or realistic rendering.
+
+ANIMATION
+Create 16 consecutive frames of one subtle, seamless idle animation:
+- Gentle breathing with a tiny rise and fall of the upper body.
+- Slight secondary movement in hair, clothing, or relevant appendages.
+- One brief natural blink if the character has visible eyes.
+- Keep the character in place, with its feet or contact points anchored.
+- Keep the design, proportions, camera angle, and scale consistent.
+- No walking, turning, dramatic gestures, or scene changes.
+- Make the last frame transition smoothly back to the first.
+
+SPRITE SHEET
+Arrange the 16 frames in exactly 4 columns × 4 rows, ordered left to right, top to bottom.
+Canvas: 1024 × 1024 pixels.
+Each cell: 256 × 256 pixels.
+Use identical alignment and a fixed baseline across all cells.
+Keep the entire character inside each cell, with at least 16 pixels of transparent padding on every side, including around moving accessories.
+No overlapping cells, grid lines, labels, text, or watermarks.
+
+TRANSPARENCY
+Use a genuinely transparent RGBA background with alpha zero outside the character.
+Do not draw a checkerboard or add a solid background, floor, or cast shadow.
+Preserve white and pale details inside the character.
+
+DELIVERABLES
+Complete the actual files, not just instructions:
+1. A transparent 4 × 4 PNG sprite sheet.
+2. A transparent animated GIF of the single character, using all 16 frames at 256 × 256 pixels, looping forever with an approximately 2.4-second cycle.
+3. A ZIP containing all 16 individual transparent PNG frames.
+
+Use available image-generation and file-processing tools to generate the artwork, split the sheet, and assemble the GIF. Use nearest-neighbor sampling if resizing is needed to preserve crisp pixels.
+
+Before exporting, inspect all 16 frames. Remove stray pixels and any fragments from neighboring cells, especially above the head or below the feet. Check for clipping, unwanted position jumps, background artifacts, and GIF trails. Ensure the final PNG and GIF backgrounds are truly transparent.
+```
+
+#### How to adapt it
+
+Swap in any character reference and change only the intended idle motion. Keep the grid dimensions, fixed baseline, padding, seamless-loop timing and export checks unchanged.
+
+**Shared by:** [Kiki](<https://x.com/Mayz1169>)
+
+[Original post on X](<https://x.com/Mayz1169/status/2097533706022056339>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#reference-to-pixel-idle-animation>)
+
+<a id="pixel-heroine-motion-comparison"></a>
+
+### Compare a Pixel Heroine's Motion Across GPT Image Versions
+
+[![Side-by-side GPT Image 2.0 and GPT Image 2.5 pixel-character motion comparison](<https://pbs.twimg.com/amplify_video_thumb/2097486160843145216/img/x353XUPSeRRnCZdQ.jpg>)](<https://x.com/higgsfield_ai/status/2097486391613792518>)
+
+Use one tightly constrained motion brief to compare design preservation and movement quality between GPT Image 2.0 and GPT Image 2.5.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** 1 image
+
+#### Prompt
+
+**Published comparison prompt** · `en`
+
+```text
+Animate the supplied pixel-art heroine in one continuous 8-second side-view shot. Preserve her exact design, colors, proportions, crisp pixels, and outlines. Lock the camera and pale blue-gray background. Keep her full body near center, facing right, with no more than 25% horizontal travel. From 0–2.5s, run mostly in place with alternating strides and arm pumps. From 2.5–4.5s, perform one two-foot jump and land crouched. From 4.5–6.5s, perform one full forward ground somersault: hands down, tuck, roll over the shoulders, feet over head, and land on both feet. From 6.5–8s, rise into a balanced ready pose. Animate at exactly 6 FPS with 167ms frame holds, normal speed, and no interpolation, blending, optical flow, or blur. On every frame, shift the whole sprite slightly and unpredictably on both axes to create strong constant jitter, especially in the final pose. Only the heroine moves; the camera and background remain still. No cuts, cartwheels, aerial flips, scene changes, text, particles, weapons, duplicates, audio, 3D, color flicker, morphing, or design drift.
+```
+
+#### How to adapt it
+
+Keep one reference and identical timing constraints for both model runs. Replace the character and action beats, but preserve the locked camera, bounded travel, frame rate and explicit drift exclusions for a fair comparison.
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097486391613792518>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#pixel-heroine-motion-comparison>)
+
+<a id="separate-pixel-frames-to-gif"></a>
+
+### Generate Separate Pixel-Art Frames for a GIF
+
+[![Pixel-art character animated from separately generated variation frames](<https://pbs.twimg.com/tweet_video_thumb/HRuaOTLbUAAgS5I.jpg>)](<https://x.com/elle_elle_e/status/2097439673308389840>)
+
+Create matching pixel-art variation frames one at a time, preserving composition and scale so they can be joined into a smooth GIF.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** 1 image
+
+#### Prompts
+
+**Original Japanese instruction** · `ja`
+
+```text
+GIF作成用に9枚の差分画像を作成して
+1枚ずつ別々に。
+元のピクセル画像をベースにサイズ感や配置は統一。後から繋げられるように
+```
+
+**English translation** · `en`
+
+```text
+Create nine variation images for a GIF, each as a separate image. Base them on the original pixel image, keeping the scale and placement consistent so they can be joined afterward.
+```
+
+#### How to adapt it
+
+Use a clean source frame and ask for separate outputs with fixed scale and placement. If a multi-panel grid deforms the character, generate smaller batches or individual frames before assembling the GIF.
+
+**Shared by:** [のえる](<https://x.com/elle_elle_e>)
+
+[Original post on X](<https://x.com/elle_elle_e/status/2097439673308389840>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#separate-pixel-frames-to-gif>)
 
 <a id="text-and-layout"></a>
 
@@ -574,6 +935,38 @@ Upload a simple silhouette sketch and replace the building type with your target
 **Shared by:** [zdhpeter](<https://x.com/peter6759>)
 
 [Original post on X](<https://x.com/peter6759/status/2097503664789430530>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#turn-sketch-into-future-building>)
+
+<a id="fighter-jet-sketch-to-blender"></a>
+
+### Turn a Fighter-Jet Sketch Into a Blender Reference
+
+[![Fighter-jet sketch, realistic GPT Image 2.5 reference and Astra-built Blender result](<https://pbs.twimg.com/amplify_video_thumb/2097430437123735553/img/U6dancWa-WZ3fPtD.jpg>)](<https://x.com/karankendre/status/2097430655336620509>)
+
+GPT Image 2.5 turns a hand-drawn jet into a realistic reference before Astra reconstructs it as a 3D Blender model.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** 1 image
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Karan](<https://x.com/karankendre>)
+
+[Original post on X](<https://x.com/karankendre/status/2097430655336620509>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#fighter-jet-sketch-to-blender>)
+
+<a id="fashion-sketch-to-runway"></a>
+
+### Bring an Original Fashion Sketch to the Runway
+
+[![GPT Image 2.5 runway rendering of a blue top and green pleated skirt from a fashion sketch](<https://pbs.twimg.com/media/HRuC28KbAAAOazM.jpg>)](<https://x.com/yanabana/status/2097414587197075837>)
+
+Translate an original garment sketch into a polished runway photograph while retaining the design's distinctive silhouette, colors and construction.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Yana Welinder](<https://x.com/yanabana>)
+
+[Original post on X](<https://x.com/yanabana/status/2097414587197075837>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#fashion-sketch-to-runway>)
 
 <a id="suggest-a-prompt"></a>
 
