@@ -9,15 +9,15 @@
 
 **[ビジュアルギャラリーを見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts>)** · [GPT Image 2.5を試す](<https://magiccreator.ai/ja/model/gpt-image-2-5>) · [プロンプトを推薦する](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-現在、厳選した**38件のプロンプト**を掲載（出典の最新確認日：**2026-09-09**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
+現在、厳選した**57件のプロンプト**を掲載（出典の最新確認日：**2026-09-09**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
 
 ## 目次
 
-- [精密な編集](#precise-edits) (2)
-- [商品画像・広告](#product-and-ads) (3)
-- [クリエイティブ生成](#creative-generation) (12)
-- [参照画像の一貫性](#reference-consistency) (12)
-- [文字・レイアウト](#text-and-layout) (5)
+- [精密な編集](#precise-edits) (4)
+- [商品画像・広告](#product-and-ads) (2)
+- [クリエイティブ生成](#creative-generation) (21)
+- [参照画像の一貫性](#reference-consistency) (18)
+- [文字・レイアウト](#text-and-layout) (8)
 - [スケッチから画像へ](#sketch-to-image) (4)
 - [プロンプトを推薦する](#suggest-a-prompt)
 
@@ -87,6 +87,64 @@ Move the lamp to the right
 
 [Xの元投稿](<https://x.com/higgsfield_ai/status/2097515081802379736>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#move-lamp-preserve-lighting>)
 
+<a id="remove-ai-slop"></a>
+
+### 2語の編集指示で画像をクリーンアップする
+
+[![GPT Image 2.5で「remove slop」を使った編集のビフォーアフター](<https://pbs.twimg.com/amplify_video_thumb/2097555838105976832/img/61hSRq_QBrGkv9-6.jpg>)](<https://x.com/higgsfield_ai/status/2097556101155955113>)
+
+意図的に短い指示で、画像全体を保ちながら目立つAIらしい欠陥を除去します。
+
+**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+remove slop
+```
+
+#### 応用方法
+
+明らかな欠陥がある画像で試し、変化が大きすぎる場合は修正対象を具体的に追記します。本番編集では維持すべき細部も指定してください。
+
+**作者:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Xの元投稿](<https://x.com/higgsfield_ai/status/2097556101155955113>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#remove-ai-slop>)
+
+<a id="gender-perspective-poster-redesign"></a>
+
+### 男性視点でポスターを再設計する
+
+[![男性視点向けに作り直したGPT Image 2.5のポスターデザイン](<https://pbs.twimg.com/media/HRvc0HEaIAAlJj4.jpg>)](<https://x.com/ponzponz15/status/2097513870969688188>)
+
+既存ポスターの構成と世界観を保ちながら、男性向けの視点に変え、表示テキストをすべて置き換えます。
+
+**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+
+#### プロンプト
+
+**元の日本語プロンプト** · `ja`
+
+```text
+元デザイン（右）の構成・世界観は維持したまま、男性視点で作りかえて。文字は全て変更する
+```
+
+**英訳** · `en`
+
+```text
+Keep the composition and world of the original design on the right, but remake it from a male perspective. Change all of the text.
+```
+
+#### 応用方法
+
+対象層を置き換え、変更するコピーを指定します。維持したい構成、世界観、ブランド要素を明示的に固定してください。
+
+**作者:** [ぽんず | AI映像](<https://x.com/ponzponz15>)
+
+[Xの元投稿](<https://x.com/ponzponz15/status/2097513870969688188>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#gender-perspective-poster-redesign>)
+
 <a id="product-and-ads"></a>
 
 ## 商品画像・広告
@@ -124,30 +182,6 @@ Using this JSON as reference, generate a person holding my product.
 **作者:** [@Mho\_23](<https://x.com/Mho_23>)
 
 [Xの元投稿](<https://x.com/Mho_23/status/2097483045221917131>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#reference-led-product-ugc>)
-
-<a id="controlled-product-studio-shot"></a>
-
-### 既存の商品をスタジオ撮影シーンへ移す
-
-アップロードした商品を保ち、表面、背景、光、自然な接地影だけを変更します。
-
-**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
-
-#### プロンプト
-
-**元のプロンプト** · `en`
-
-```text
-Keep the product exactly as shown. Put it on a clean marble table in a premium studio setting with soft lighting and realistic shadows.
-```
-
-#### 応用方法
-
-最初の文で商品を維持し、その後の表面、背景、照明を自分のアートディレクションに置き換えます。商品を別のシーンへ移す場合は、自然な接地影も必ず記述してください。
-
-**作者:** [@cgtwts](<https://x.com/cgtwts>)
-
-[Xの元投稿](<https://x.com/cgtwts/status/2097456916335383025>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#controlled-product-studio-shot>)
 
 <a id="ugc-app-promo-starting-frame"></a>
 
@@ -206,6 +240,22 @@ Photo of a clearing in the woods with lots of green foliage, highly detailed
 **作者:** [Mark K](<https://x.com/mark_k>)
 
 [Xの元投稿](<https://x.com/mark_k/status/2097411028510179759>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#woodland-noise-artifact-test>)
+
+<a id="higgsfield-sunburst-flare-launch-showcase"></a>
+
+### GPT Image 2.5 SunburstとFlareのクリエイティブ作例を見る
+
+[![GPT Image 2.5 SunburstとFlareの作例を紹介するHiggsfieldのローンチ映像](<https://pbs.twimg.com/amplify_video_thumb/2097419660971147264/img/uMRhE4wnkIop-xZ-.jpg>)](<https://x.com/higgsfield/status/2097421079824543776>)
+
+Higgsfieldのローンチ映像で、商品の一貫性、エディトリアル構成、読みやすい文字、知識ベースのグラフィックにわたるGPT Image 2.5の作例を紹介します。
+
+**モデル:** GPT Image 2.5 Sunburst & Flare · **モード:** ワークフロー · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Xの元投稿](<https://x.com/higgsfield/status/2097421079824543776>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#higgsfield-sunburst-flare-launch-showcase>)
 
 <a id="goblin-archer-sprite-sheet"></a>
 
@@ -463,35 +513,169 @@ After making the background transparent, split the 4 × 4 sheet, align the frame
 
 [Xの元投稿](<https://x.com/8co28/status/2097423580229521849>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#character-combat-sprite-sheet>)
 
-<a id="reference-consistency"></a>
+<a id="realistic-vertical-portrait"></a>
 
-## 参照画像の一貫性
+### 自然に見える縦長ポートレートを生成する
 
-編集を重ねても人物、商品、元画像を維持する方法。
+[![GPT Image 2.5の結果として公開されたリアルな縦長ポートレート](<https://pbs.twimg.com/media/HRt2-u5XcAAEsK2.jpg>)](<https://x.com/0xROAS/status/2097401017260179603>)
 
-<a id="lock-a-base-image-for-edits"></a>
+自然な肌の質感、控えめな照明、日常的なスマホ写真の雰囲気を持つリアルな縦長ポートレートを作ります。
 
-### 連続編集の前にベース画像を固定する
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
 
-最初に維持ルールを決め、その後の各編集では変更してよい要素だけを指定します。
+_作者は、この事例で再利用できるプロンプトを公開していません。_
 
-**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+**作者:** [0x ROAS](<https://x.com/0xROAS>)
+
+[Xの元投稿](<https://x.com/0xROAS/status/2097401017260179603>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#realistic-vertical-portrait>)
+
+<a id="will-smith-spaghetti-animation"></a>
+
+### ウィル・スミスのスパゲッティテストを再検証する
+
+[![GPT Image 2.5のベンチマークアニメーションでスパゲッティを食べるウィル・スミス](<https://pbs.twimg.com/amplify_video_thumb/2097546026123235328/img/9oF7d_xZT29YCm4Y.jpg>)](<https://x.com/gabrielchua/status/2097546354373603554>)
+
+定番のウィル・スミスがスパゲッティを食べるベンチマークを、食べ物と表情の動きを備えた一貫性のあるアニメーションとして生成します。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**公開されたプロンプト** · `en`
+
+```text
+Will Smith eating spaghetti
+```
+
+#### 応用方法
+
+厳密なアート指示ではなく単純な能力確認をしたい場合は、人物と食べ物だけを置き換え、意図的に短いプロンプトを保ちます。
+
+**作者:** [Gabriel Chua](<https://x.com/gabrielchua>)
+
+[Xの元投稿](<https://x.com/gabrielchua/status/2097546354373603554>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#will-smith-spaghetti-animation>)
+
+<a id="stormy-beach-survivor"></a>
+
+### 嵐の海岸に飛行機事故の生存者を演出する
+
+[![夕暮れの嵐の海岸で飛行機事故の生存者と犬を描いたGPT Image 2.5の場面](<https://pbs.twimg.com/media/HRuAWxMWMAArXWB.jpg>)](<https://x.com/leploutos/status/2097411209108562221>)
+
+嵐の海岸で、濡れた生存者、残骸、走る犬を、夕日の重層的な光と映画的な奥行きで描きます。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Le PLOUTOS](<https://x.com/leploutos>)
+
+[Xの元投稿](<https://x.com/leploutos/status/2097411209108562221>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#stormy-beach-survivor>)
+
+<a id="complex-forest-comparison"></a>
+
+### 複雑な森で豊かな質感とノイズを比較する
+
+[![複雑な森のプロンプトに対するGPT Image 2とGPT Image 2.5の比較](<https://pbs.twimg.com/media/HRuY9qQaIAA8FwF.jpg>)](<https://x.com/TimJayas/status/2097442532980634096>)
+
+情報量の多い森の場面を使い、豊かな質感と鮮明な細部、追加の視覚ノイズのリスクを比較します。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Tim Jayas](<https://x.com/TimJayas>)
+
+[Xの元投稿](<https://x.com/TimJayas/status/2097442532980634096>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#complex-forest-comparison>)
+
+<a id="photographic-model-comparison"></a>
+
+### 画像モデルの世代間で写真表現を比較する
+
+[![自然な色と照明を示すGPT Image 2.5の写真比較結果](<https://pbs.twimg.com/media/HRbet0CaIAAyxJo.jpg>)](<https://x.com/NguynTu135869/status/2096108249481461776>)
+
+同じプロンプトをGPT Image 2と2.5で実行し、色、質感、雰囲気、照明、写真らしい抑制を比較します。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [T 1 to 9](<https://x.com/NguynTu135869>)
+
+[Xの元投稿](<https://x.com/NguynTu135869/status/2096108249481461776>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#photographic-model-comparison>)
+
+<a id="realistic-cafe-iphone-photo"></a>
+
+### カフェで撮ったリアルなiPhone写真を作る
+
+[![GPT Image 2.5で生成したカフェの女性のリアルなiPhone風写真](<https://pbs.twimg.com/media/HRwuCVkaQAAJS1X.jpg>)](<https://x.com/blueemi99/status/2097602273085931662>)
+
+短い自然言語の依頼から、カフェにいる女性のカジュアルなスマホ写真を生成します。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
 
 #### プロンプト
 
 **元のプロンプト** · `en`
 
 ```text
-Lock this image as the base version. Every attribute stays fixed unless I name it directly. On future edits, touch only the variable I mention, leave everything else exactly as is.
+make me a realistic iphone photo of a woman in a cafe
 ```
 
 #### 応用方法
 
-ベース画像をアップロードした直後に一度だけ使います。以降は服の色、背景、表情など、1回につき1つの変更だけを指定し、維持ルールは変えないでください。
+人物と場所を置き換え、カメラの指定は短く保ちます。気軽なスナップ感を損なわずに方向性を足すなら、時間帯や構図だけを追加してください。
 
-**作者:** [Xiaohu](<https://x.com/xiaohu>)
+**作者:** [bluedev](<https://x.com/blueemi99>)
 
-[Xの元投稿](<https://x.com/xiaohu/status/2097486974261362853>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#lock-a-base-image-for-edits>)
+[Xの元投稿](<https://x.com/blueemi99/status/2097602273085931662>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#realistic-cafe-iphone-photo>)
+
+<a id="four-model-beach-realism-test"></a>
+
+### 平凡な海辺のポートレートで4モデルを比較する
+
+[![4モデルの海辺ポートレート比較におけるGPT Image 2.5 Sunburst Maxの結果](<https://pbs.twimg.com/media/HRwu-BRbEAADFC7.jpg>)](<https://x.com/leploutos/status/2097603180473242080>)
+
+あえて平凡な海辺のポートレートを使い、主要4モデルの肌、視線、髪、灰色の光、奥行きを比較します。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Le PLOUTOS](<https://x.com/leploutos>)
+
+[Xの元投稿](<https://x.com/leploutos/status/2097603180473242080>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#four-model-beach-realism-test>)
+
+<a id="avengers-doomsday-scene"></a>
+
+### 『アベンジャーズ／ドゥームズデイ』の結末を精密に想像する
+
+[![GPT Image 2.5で『アベンジャーズ／ドゥームズデイ』の結末を想像した精密な群像場面](<https://pbs.twimg.com/media/HRt0714aYAAqkd3.jpg>)](<https://x.com/notjazii/status/2097398924420288784>)
+
+人物、衣装、環境を細かく描き込み、『アベンジャーズ／ドゥームズデイ』の結末を想像した映画的な群像場面を作ります。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**公開されたプロンプト** · `en`
+
+```text
+avengers doomsday ending
+```
+
+#### 応用方法
+
+作品や物語の前提を置き換え、具体的な最終場面を依頼します。再現性のある演出には、人物配置とカメラ指示を追加してください。
+
+**作者:** [J A Z I I](<https://x.com/notjazii>)
+
+[Xの元投稿](<https://x.com/notjazii/status/2097398924420288784>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#avengers-doomsday-scene>)
+
+<a id="reference-consistency"></a>
+
+## 参照画像の一貫性
+
+編集を重ねても人物、商品、元画像を維持する方法。
 
 <a id="clay-stop-motion-sequence"></a>
 
@@ -778,6 +962,150 @@ Create nine variation images for a GIF, each as a separate image. Base them on t
 
 [Xの元投稿](<https://x.com/elle_elle_e/status/2097439673308389840>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#separate-pixel-frames-to-gif>)
 
+<a id="wooden-chess-turntable"></a>
+
+### 木製チェスナイトをシームレスに一回転させる
+
+[![GPT Image 2.5のターンテーブル比較動画に映る木製チェスナイト](<https://pbs.twimg.com/amplify_video_thumb/2097519322398953472/img/5Gcwe7Hi5uhohCLO.jpg>)](<https://x.com/higgsfield/status/2097519422407872858>)
+
+彫刻された木製チェスナイトを中央に固定し、形状を安定させたままスタジオで360度回転させます。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+Create a photorealistic studio turntable video of a polished wooden chess knight.
+
+The knight has a minimalist carved horse silhouette: broad flat sides, a rounded elongated muzzle, a tiny dark eye, an angular ear, and a gently curved neck. A smooth, dark brown insert follows the mane along the back. The figure stands on a wide circular wooden base with several concentric stepped rings.
+
+Use warm brown wood with clearly visible vertical grain, softly rounded edges, and a glossy lacquer finish. Preserve the exact shape, proportions, wood grain, and dark mane insert throughout the video.
+
+The entire chess piece, including its base, rotates smoothly through one complete 360-degree turn around its vertical axis at a constant speed. It stays perfectly centered and firmly on the surface. The first and last frames match for a seamless loop.
+
+Keep the camera completely stationary, looking slightly downward at the piece. Show the entire object with a small margin above and below. Use a seamless light-gray studio background and floor, soft diffused lighting, gentle highlights on the lacquer, and a subtle contact shadow beneath the base.
+
+Duration: 3 seconds. Frame rate: 30 fps. Square 1:1 composition.
+
+No camera movement, zoom, cuts, wobbling, floating, deformation, changing proportions, sliding wood textures, flickering, additional objects, text, or logos.
+```
+
+#### 応用方法
+
+ナイトの説明を自分の物体に置き換え、形状、素材、回転速度、カメラ、照明を固定します。ループには先頭と末尾の一致、不要な動きの禁止も残してください。
+
+**作者:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Xの元投稿](<https://x.com/higgsfield/status/2097519422407872858>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#wooden-chess-turntable>)
+
+<a id="gothic-figure-turntable"></a>
+
+### 精密な2体のフィギュアを分割画面で同期回転させる
+
+[![GPT Image 2.5の分割画面ターンテーブルで同期回転するゴシック調アニメフィギュア](<https://pbs.twimg.com/amplify_video_thumb/2097486466867941376/img/j9bqNMj_21Veq9uK.jpg>)](<https://x.com/higgsfield/status/2097486959296057609>)
+
+顔、衣装、剣、台座、固定したスタジオ構図を保ちながら、同じゴシック調アニメフィギュア2体を同期回転させます。
+
+**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+Create a continuous 6-second split-screen animation from the supplied image. Preserve both matching silver-haired gothic anime resin figures and all facial, costume, hair, sword, boot, and base details. Use two equal panels with synchronized motion. Both figures must simultaneously rotate clockwise with their bases through one full 360° turn at 60°/s while gesturing: front at 0s, side at 1.5s, back at 3s, opposite side at 4.5s, and front at 6s. From 0–2s, wave the free right hand beside the face; from 2–4s, brush the hair back with a slight head tilt; from 4–6s, lower the hand to the hip and end in a confident front-facing pose with a soft smile. Keep the left hand holding the fully sheathed katana downward and both feet fixed to the rotating base. Preserve smooth articulation, subtle secondary motion, and the painted-resin finish. Keep both complete figures and bases visible against a near-white studio background. Camera, lighting, scale, divider, and turntable centers stay fixed. No cuts, reversals, camera movement, extra objects, text, watermark, graphics, or audio.
+```
+
+#### 応用方法
+
+2体のキャラクター参照を差し替え、時間ごとのキーポーズを指定します。回転中に維持すべき人物、衣装、カメラ属性をすべて固定してください。
+
+**作者:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Xの元投稿](<https://x.com/higgsfield/status/2097486959296057609>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#gothic-figure-turntable>)
+
+<a id="real-time-face-changer"></a>
+
+### 生成キャラクターをリアルタイム顔フィルターにする
+
+[![GPT Image 2.5で生成したキャラクターを使うリアルタイム顔変換](<https://pbs.twimg.com/amplify_video_thumb/2097490941062037504/img/QF404qyn14be0iaI.jpg>)](<https://x.com/higgsfield/status/2097491814760771856>)
+
+GPT Image 2.5でテキストから新しいキャラクターを作り、GPT-6 Astraでライブカメラの顔変換として適用します。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Xの元投稿](<https://x.com/higgsfield/status/2097491814760771856>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#real-time-face-changer>)
+
+<a id="book-page-animated-scene"></a>
+
+### 絵本の1ページを音付きでアニメーション化する
+
+[![GPT Image 2.5でアニメーション場面に変換した絵本のページ](<https://pbs.twimg.com/amplify_video_thumb/2097460779658452992/img/Io-riiPyRJTqDKax.jpg>)](<https://x.com/higgsfield_ai/status/2097461881602711918>)
+
+撮影した絵本の1ページから始め、GPT Image 2.5で場面をアニメーション化し、Astraで工程を組み、REAPERとSoundlyで音を加えます。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** 1枚の画像
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Xの元投稿](<https://x.com/higgsfield_ai/status/2097461881602711918>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#book-page-animated-scene>)
+
+<a id="walking-fighting-sprite-test"></a>
+
+### ピクセルキャラクターの歩行と戦闘モーションを生成する
+
+[![キャラクター参照から作ったGPT Image 2.5のピクセルアート戦闘モーションテスト](<https://pbs.twimg.com/media/HRugmH9bsAA2kS2.jpg>)](<https://x.com/pureso_studio/status/2097520619193868590>)
+
+ピクセルキャラクターの衣装を保ち、両足が動くようにしながら、複数の歩行・戦闘ポーズを作ります。
+
+**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [PURESO](<https://x.com/pureso_studio>)
+
+[Xの元投稿](<https://x.com/pureso_studio/status/2097520619193868590>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#walking-fighting-sprite-test>)
+
+<a id="consistent-illumination-stop-motion"></a>
+
+### ストップモーションのフレーム間で照明を安定させる
+
+[![GPT Image 2.5で物体の配置と照明の一貫性を検証したストップモーション連続フレーム](<https://pbs.twimg.com/amplify_video_thumb/2097562716378677248/img/8sSSKbdpWUxLUqqK.jpg>)](<https://x.com/higgsfield_ai/status/2097563142821994503>)
+
+新しいフレームで場面を勝手に再設計せず、物体の位置と照明を維持できるか検証します。
+
+**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Xの元投稿](<https://x.com/higgsfield_ai/status/2097563142821994503>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#consistent-illumination-stop-motion>)
+
+<a id="ten-turn-style-transfer-test"></a>
+
+### 10回の生成でスタイル転写をストレステストする
+
+[![GPT Image 2.5の複数ターンにわたるスタイル参照とデザイン転写のストレステスト](<https://pbs.twimg.com/amplify_video_thumb/2097572884919255040/img/FK347u7KRLp0AUvO.jpg>)](<https://x.com/ZHO_ZHO_ZHO/status/2097573152675316038>)
+
+特徴的なデザインスタイルを複数ターンにわたり適用し、参照転写の品質と長い会話で崩れ始める地点を検証します。
+
+**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [-Zho-](<https://x.com/ZHO_ZHO_ZHO>)
+
+[Xの元投稿](<https://x.com/ZHO_ZHO_ZHO/status/2097573152675316038>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#ten-turn-style-transfer-test>)
+
 <a id="text-and-layout"></a>
 
 ## 文字・レイアウト
@@ -879,6 +1207,94 @@ _作者は、この事例で再利用できるプロンプトを公開してい�
 **作者:** [Kevin Yuan](<https://x.com/KevinYu77034270>)
 
 [Xの元投稿](<https://x.com/KevinYu77034270/status/2097558397801677170>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#four-page-spanish-learning-unit>)
+
+<a id="six-prompt-sunburst-benchmark"></a>
+
+### 6つの高密度なクリエイティブ指示でSunburstを検証する
+
+[![ローアングルの6人ファッション広告プロンプトに対するGPT Image 2.5の結果](<https://pbs.twimg.com/media/HRvg8ccbkAAZ3NQ.jpg>)](<https://x.com/ImagineArt_X/status/2097520459969601977>)
+
+同じ6つのプロンプトをGPT Image 2とGPT Image 2.5 Sunburstで実行し、ファッション構図、技術図、年代物グラフィック、漫画、掲示板の細かな文字、セルアニメを比較します。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**ファッション広告プロンプト** · `en`
+
+```text
+a fashion campaign for an invented label, shot from a camera on the ground with a 24mm lens tilted fifteen degrees. Six people in electric blue, tomato red, lime green, hot pink, butter yellow and lilac, all posed differently, against plain cobalt sky.
+```
+
+**整備マニュアルのプロンプト** · `en`
+
+```text
+a domestic espresso machine drawn in section, 1960s service manual style, fine black line work with flat spot colour on cream paper. Fourteen numbered leader lines, a key down the right listing all fourteen parts, a scale bar in centimetres, and a title block reading FIG. 3 SECTIONAL VIEW MODEL C2.
+```
+
+**テレビ通販のプロンプト** · `en`
+
+```text
+a frame grab from a 1994 infomercial, standard definition video with scanlines. A host in a teal blazer, a battered saucer on a rotating plinth with Antarctic ice frozen around one leg, a price starburst, a phone number, and three lines of legal small print.
+```
+
+**新聞漫画のプロンプト** · `en`
+
+```text
+a 1960s Sunday newspaper comic strip on yellowed newsprint, six panels in two rows of three. A park ranger and a bear with a notched ear, the same campsite in every panel, dialogue specified word for word, one sound effect, and one panel with no dialogue at all.
+```
+
+**掲示板のプロンプト** · `en`
+
+```text
+a cork notice board outside a Welsh village post office, overcast light, seven pinned items. A choral society flyer, a lost cat poster on yellow paper, a handwritten piano card, a bus timetable with four times, a sheepdog photo, tear off tabs, and one blank white card.
+```
+
+**セルアニメのプロンプト** · `en`
+
+```text
+a still from a hand drawn Japanese animated film, late 1990s cel style, painted watercolour background. A dawn duel on black volcanic sand, a woman with a drawn katana facing an older man with a sheathed one, cherry blossom blowing right to left.
+```
+
+#### 応用方法
+
+ベンチマークの構成を再利用し、モデル間で各プロンプトを変えず、編集なしで1回ずつ生成します。人物、小さな文字、反復キャラクター、年代指定を含む自分の難しい題材に置き換えてください。
+
+**作者:** [ImagineArt](<https://x.com/ImagineArt_X>)
+
+[Xの元投稿](<https://x.com/ImagineArt_X/status/2097520459969601977>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#six-prompt-sunburst-benchmark>)
+
+<a id="one-shot-product-landing-page"></a>
+
+### 商品ランディングページをワンショットで作る
+
+[![GPT Image 2.5とAstraで作った手持ち型自動車診断デバイスの商品ページ](<https://pbs.twimg.com/amplify_video_thumb/2097603154884046848/img/XHHcpZxxXwyuk_B5.jpg>)](<https://x.com/bogdan_qclay/status/2097603265563099593>)
+
+GPT Image 2.5の素材とGPT-6 Astraを組み合わせ、自動車診断デバイスの洗練されたランディングページを一度で作ります。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Bogdan • QClay | Awsmd](<https://x.com/bogdan_qclay>)
+
+[Xの元投稿](<https://x.com/bogdan_qclay/status/2097603265563099593>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#one-shot-product-landing-page>)
+
+<a id="space-landing-page"></a>
+
+### インタラクティブな宇宙テーマのランディングページを作る
+
+[![GPT Image 2.5の素材とGPT-6 Astraで作った宇宙テーマのHorizonXランディングページ](<https://pbs.twimg.com/amplify_video_thumb/2097500377100980224/img/taNnwqMipI6ZArsL.jpg>)](<https://x.com/viktoroddy/status/2097500666357072243>)
+
+GPT Image 2.5で映画的な惑星ビジュアルを作り、GPT-6 Astraで洗練されたランディングページ体験に組み上げます。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+**作者:** [Viktor Oddy](<https://x.com/viktoroddy>)
+
+[Xの元投稿](<https://x.com/viktoroddy/status/2097500666357072243>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#space-landing-page>)
 
 <a id="sketch-to-image"></a>
 

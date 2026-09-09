@@ -9,15 +9,15 @@ A curated collection of reusable GPT Image 2.5 prompts and workflows shared by r
 
 **[Browse the visual gallery](<https://magiccreator.ai/gpt-image-2-5-prompts>)** · [Try GPT Image 2.5](<https://magiccreator.ai/model/gpt-image-2-5>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **38 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **57 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
-- [Precise edits](#precise-edits) (2)
-- [Products and ads](#product-and-ads) (3)
-- [Creative generation](#creative-generation) (12)
-- [Reference consistency](#reference-consistency) (12)
-- [Text and layout](#text-and-layout) (5)
+- [Precise edits](#precise-edits) (4)
+- [Products and ads](#product-and-ads) (2)
+- [Creative generation](#creative-generation) (21)
+- [Reference consistency](#reference-consistency) (18)
+- [Text and layout](#text-and-layout) (8)
 - [Sketch to image](#sketch-to-image) (4)
 - [Suggest a prompt](#suggest-a-prompt)
 
@@ -87,6 +87,64 @@ Name one object and one destination. Keep the instruction minimal when you want 
 
 [Original post on X](<https://x.com/higgsfield_ai/status/2097515081802379736>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#move-lamp-preserve-lighting>)
 
+<a id="remove-ai-slop"></a>
+
+### Clean Up an Image With a Two-Word Edit
+
+[![Before-and-after demonstration of the remove slop edit in GPT Image 2.5](<https://pbs.twimg.com/amplify_video_thumb/2097555838105976832/img/61hSRq_QBrGkv9-6.jpg>)](<https://x.com/higgsfield_ai/status/2097556101155955113>)
+
+Use an intentionally terse instruction to remove conspicuous AI-looking defects while leaving the overall image intact.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+remove slop
+```
+
+#### How to adapt it
+
+Try the phrase on an image with obvious defects, then follow with a named correction if the result changes too much. For production edits, specify which details must stay fixed.
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097556101155955113>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#remove-ai-slop>)
+
+<a id="gender-perspective-poster-redesign"></a>
+
+### Redesign a Poster From a Male Perspective
+
+[![GPT Image 2.5 poster redesign created for a male perspective](<https://pbs.twimg.com/media/HRvc0HEaIAAlJj4.jpg>)](<https://x.com/ponzponz15/status/2097513870969688188>)
+
+Preserve an existing poster's composition and world while changing the viewpoint to a male audience and replacing all displayed text.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompts
+
+**Original Japanese prompt** · `ja`
+
+```text
+元デザイン（右）の構成・世界観は維持したまま、男性視点で作りかえて。文字は全て変更する
+```
+
+**English translation** · `en`
+
+```text
+Keep the composition and world of the original design on the right, but remake it from a male perspective. Change all of the text.
+```
+
+#### How to adapt it
+
+Replace the audience and specify which copy must change. Explicitly lock the composition, visual world and any brand elements you need to retain.
+
+**Shared by:** [ぽんず | AI映像](<https://x.com/ponzponz15>)
+
+[Original post on X](<https://x.com/ponzponz15/status/2097513870969688188>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#gender-perspective-poster-redesign>)
+
 <a id="product-and-ads"></a>
 
 ## Products and ads
@@ -124,30 +182,6 @@ Swap in one image for the visual style and one clear product photo. Keep the two
 **Shared by:** [@Mho\_23](<https://x.com/Mho_23>)
 
 [Original post on X](<https://x.com/Mho_23/status/2097483045221917131>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#reference-led-product-ugc>)
-
-<a id="controlled-product-studio-shot"></a>
-
-### Move an Existing Product Into a Studio Scene
-
-Preserve the uploaded product while changing only its surface, setting, light and natural contact shadows.
-
-**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
-
-#### Prompt
-
-**Original prompt** · `en`
-
-```text
-Keep the product exactly as shown. Put it on a clean marble table in a premium studio setting with soft lighting and realistic shadows.
-```
-
-#### How to adapt it
-
-Keep the first sentence to preserve the product, then replace the surface, setting and lighting with your own art direction. Describe realistic contact shadows whenever the product moves into a new scene.
-
-**Shared by:** [@cgtwts](<https://x.com/cgtwts>)
-
-[Original post on X](<https://x.com/cgtwts/status/2097456916335383025>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#controlled-product-studio-shot>)
 
 <a id="ugc-app-promo-starting-frame"></a>
 
@@ -206,6 +240,22 @@ Replace the woodland clearing with another detail-heavy subject, then keep the p
 **Shared by:** [Mark K](<https://x.com/mark_k>)
 
 [Original post on X](<https://x.com/mark_k/status/2097411028510179759>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#woodland-noise-artifact-test>)
+
+<a id="higgsfield-sunburst-flare-launch-showcase"></a>
+
+### See GPT Image 2.5 Sunburst and Flare Across Creative Workflows
+
+[![Higgsfield launch reel showing GPT Image 2.5 Sunburst and Flare creative examples](<https://pbs.twimg.com/amplify_video_thumb/2097419660971147264/img/uMRhE4wnkIop-xZ-.jpg>)](<https://x.com/higgsfield/status/2097421079824543776>)
+
+Higgsfield's launch reel shows GPT Image 2.5 across product-consistent imagery, editorial compositions, readable text and knowledge-driven graphics.
+
+**Model:** GPT Image 2.5 Sunburst & Flare · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Original post on X](<https://x.com/higgsfield/status/2097421079824543776>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#higgsfield-sunburst-flare-launch-showcase>)
 
 <a id="goblin-archer-sprite-sheet"></a>
 
@@ -463,35 +513,169 @@ Replace the character reference and specify the combat sequence you need. Keep p
 
 [Original post on X](<https://x.com/8co28/status/2097423580229521849>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#character-combat-sprite-sheet>)
 
-<a id="reference-consistency"></a>
+<a id="realistic-vertical-portrait"></a>
 
-## Reference consistency
+### Generate a Natural-Looking Vertical Portrait
 
-Ways to preserve a subject, product or base image across revisions.
+[![Realistic vertical portrait shared as a GPT Image 2.5 result](<https://pbs.twimg.com/media/HRt2-u5XcAAEsK2.jpg>)](<https://x.com/0xROAS/status/2097401017260179603>)
 
-<a id="lock-a-base-image-for-edits"></a>
+Create a highly realistic vertical portrait with natural skin texture, subdued lighting and an everyday phone-photo feel.
 
-### Lock a Base Image Before a Series of Edits
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
 
-Establish a preservation rule once, then name only the variable that may change in each later edit.
+_The creator did not publish a reusable prompt for this example._
 
-**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+**Shared by:** [0x ROAS](<https://x.com/0xROAS>)
+
+[Original post on X](<https://x.com/0xROAS/status/2097401017260179603>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#realistic-vertical-portrait>)
+
+<a id="will-smith-spaghetti-animation"></a>
+
+### Revisit the Will Smith Spaghetti Test
+
+[![Will Smith eating spaghetti in a GPT Image 2.5 benchmark animation](<https://pbs.twimg.com/amplify_video_thumb/2097546026123235328/img/9oF7d_xZT29YCm4Y.jpg>)](<https://x.com/gabrielchua/status/2097546354373603554>)
+
+Generate the classic Will Smith eating spaghetti benchmark as a coherent animated scene with detailed food and facial motion.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+Will Smith eating spaghetti
+```
+
+#### How to adapt it
+
+Replace the person and food while keeping the prompt deliberately short when you want a simple capability check rather than tightly directed art.
+
+**Shared by:** [Gabriel Chua](<https://x.com/gabrielchua>)
+
+[Original post on X](<https://x.com/gabrielchua/status/2097546354373603554>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#will-smith-spaghetti-animation>)
+
+<a id="stormy-beach-survivor"></a>
+
+### Stage a Cinematic Plane-Crash Survivor on a Stormy Beach
+
+[![GPT Image 2.5 scene of a plane-crash survivor and dog on a stormy beach at sunset](<https://pbs.twimg.com/media/HRuAWxMWMAArXWB.jpg>)](<https://x.com/leploutos/status/2097411209108562221>)
+
+Render a wet survivor, wreckage and a running dog on a storm-lashed beach with layered sunset lighting and cinematic depth.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Le PLOUTOS](<https://x.com/leploutos>)
+
+[Original post on X](<https://x.com/leploutos/status/2097411209108562221>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#stormy-beach-survivor>)
+
+<a id="complex-forest-comparison"></a>
+
+### Compare Rich Texture and Noise in a Complex Forest
+
+[![Side-by-side GPT Image 2 and GPT Image 2.5 results for a complex forest prompt](<https://pbs.twimg.com/media/HRuY9qQaIAA8FwF.jpg>)](<https://x.com/TimJayas/status/2097442532980634096>)
+
+Use a dense forest scene to compare richer texture and sharper detail against the risk of extra visual noise.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Tim Jayas](<https://x.com/TimJayas>)
+
+[Original post on X](<https://x.com/TimJayas/status/2097442532980634096>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#complex-forest-comparison>)
+
+<a id="photographic-model-comparison"></a>
+
+### Compare Photographic Mood Across Image Model Versions
+
+[![GPT Image 2.5 photographic comparison result with natural color and lighting](<https://pbs.twimg.com/media/HRbet0CaIAAyxJo.jpg>)](<https://x.com/NguynTu135869/status/2096108249481461776>)
+
+Run the same prompt through GPT Image 2 and 2.5 to compare color, texture, atmosphere, lighting and photographic restraint.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [T 1 to 9](<https://x.com/NguynTu135869>)
+
+[Original post on X](<https://x.com/NguynTu135869/status/2096108249481461776>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#photographic-model-comparison>)
+
+<a id="realistic-cafe-iphone-photo"></a>
+
+### Make a Realistic iPhone Cafe Portrait
+
+[![Realistic iPhone-style photograph of a woman in a cafe generated by GPT Image 2.5](<https://pbs.twimg.com/media/HRwuCVkaQAAJS1X.jpg>)](<https://x.com/blueemi99/status/2097602273085931662>)
+
+Generate a casual phone-camera photograph of a woman in a cafe from a short natural-language request.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
 
 #### Prompt
 
 **Original prompt** · `en`
 
 ```text
-Lock this image as the base version. Every attribute stays fixed unless I name it directly. On future edits, touch only the variable I mention, leave everything else exactly as is.
+make me a realistic iphone photo of a woman in a cafe
 ```
 
 #### How to adapt it
 
-Use this once after uploading your base image. In each follow-up, name only one change—such as clothing color, background or expression—and leave the preservation rule untouched.
+Replace the subject and location while keeping the camera cue short. Add time of day or framing only if you need more direction without losing the casual snapshot feel.
 
-**Shared by:** [Xiaohu](<https://x.com/xiaohu>)
+**Shared by:** [bluedev](<https://x.com/blueemi99>)
 
-[Original post on X](<https://x.com/xiaohu/status/2097486974261362853>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#lock-a-base-image-for-edits>)
+[Original post on X](<https://x.com/blueemi99/status/2097602273085931662>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#realistic-cafe-iphone-photo>)
+
+<a id="four-model-beach-realism-test"></a>
+
+### Compare Four Models on an Ordinary Beach Portrait
+
+[![GPT Image 2.5 Sunburst Max result in a four-model beach portrait realism test](<https://pbs.twimg.com/media/HRwu-BRbEAADFC7.jpg>)](<https://x.com/leploutos/status/2097603180473242080>)
+
+Use a deliberately plain beach portrait to compare skin, gaze, hair, gray light and depth across four leading image models.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Le PLOUTOS](<https://x.com/leploutos>)
+
+[Original post on X](<https://x.com/leploutos/status/2097603180473242080>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#four-model-beach-realism-test>)
+
+<a id="avengers-doomsday-scene"></a>
+
+### Imagine a Detailed Avengers: Doomsday Ending
+
+[![Detailed ensemble scene imagining an Avengers: Doomsday ending with GPT Image 2.5](<https://pbs.twimg.com/media/HRt0714aYAAqkd3.jpg>)](<https://x.com/notjazii/status/2097398924420288784>)
+
+Create a cinematic ensemble scene imagining the ending of Avengers: Doomsday with detailed characters, costumes and environment.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+avengers doomsday ending
+```
+
+#### How to adapt it
+
+Replace the film or story premise and ask for a specific final moment. Add character placement and camera direction if you need reproducible staging.
+
+**Shared by:** [J A Z I I](<https://x.com/notjazii>)
+
+[Original post on X](<https://x.com/notjazii/status/2097398924420288784>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#avengers-doomsday-scene>)
+
+<a id="reference-consistency"></a>
+
+## Reference consistency
+
+Ways to preserve a subject, product or base image across revisions.
 
 <a id="clay-stop-motion-sequence"></a>
 
@@ -778,6 +962,150 @@ Use a clean source frame and ask for separate outputs with fixed scale and place
 
 [Original post on X](<https://x.com/elle_elle_e/status/2097439673308389840>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#separate-pixel-frames-to-gif>)
 
+<a id="wooden-chess-turntable"></a>
+
+### Rotate a Wooden Chess Knight Through a Seamless Turntable
+
+[![Wooden chess knight shown in the GPT Image 2.5 turntable comparison video](<https://pbs.twimg.com/amplify_video_thumb/2097519322398953472/img/5Gcwe7Hi5uhohCLO.jpg>)](<https://x.com/higgsfield/status/2097519422407872858>)
+
+Keep a carved wooden chess knight centered and structurally stable through a full 360-degree studio rotation.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+Create a photorealistic studio turntable video of a polished wooden chess knight.
+
+The knight has a minimalist carved horse silhouette: broad flat sides, a rounded elongated muzzle, a tiny dark eye, an angular ear, and a gently curved neck. A smooth, dark brown insert follows the mane along the back. The figure stands on a wide circular wooden base with several concentric stepped rings.
+
+Use warm brown wood with clearly visible vertical grain, softly rounded edges, and a glossy lacquer finish. Preserve the exact shape, proportions, wood grain, and dark mane insert throughout the video.
+
+The entire chess piece, including its base, rotates smoothly through one complete 360-degree turn around its vertical axis at a constant speed. It stays perfectly centered and firmly on the surface. The first and last frames match for a seamless loop.
+
+Keep the camera completely stationary, looking slightly downward at the piece. Show the entire object with a small margin above and below. Use a seamless light-gray studio background and floor, soft diffused lighting, gentle highlights on the lacquer, and a subtle contact shadow beneath the base.
+
+Duration: 3 seconds. Frame rate: 30 fps. Square 1:1 composition.
+
+No camera movement, zoom, cuts, wobbling, floating, deformation, changing proportions, sliding wood textures, flickering, additional objects, text, or logos.
+```
+
+#### How to adapt it
+
+Replace the knight description with your object, then lock its geometry, material, rotation speed, camera and lighting. Repeat the first-and-last-frame and negative-motion constraints for a loop.
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Original post on X](<https://x.com/higgsfield/status/2097519422407872858>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#wooden-chess-turntable>)
+
+<a id="gothic-figure-turntable"></a>
+
+### Synchronize Two Detailed Figures in a Split-Screen Turntable
+
+[![Matching gothic anime figures in a synchronized GPT Image 2.5 split-screen turntable](<https://pbs.twimg.com/amplify_video_thumb/2097486466867941376/img/j9bqNMj_21Veq9uK.jpg>)](<https://x.com/higgsfield/status/2097486959296057609>)
+
+Rotate two matching gothic anime figures in sync while preserving faces, costumes, swords, bases and fixed studio framing.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+Create a continuous 6-second split-screen animation from the supplied image. Preserve both matching silver-haired gothic anime resin figures and all facial, costume, hair, sword, boot, and base details. Use two equal panels with synchronized motion. Both figures must simultaneously rotate clockwise with their bases through one full 360° turn at 60°/s while gesturing: front at 0s, side at 1.5s, back at 3s, opposite side at 4.5s, and front at 6s. From 0–2s, wave the free right hand beside the face; from 2–4s, brush the hair back with a slight head tilt; from 4–6s, lower the hand to the hip and end in a confident front-facing pose with a soft smile. Keep the left hand holding the fully sheathed katana downward and both feet fixed to the rotating base. Preserve smooth articulation, subtle secondary motion, and the painted-resin finish. Keep both complete figures and bases visible against a near-white studio background. Camera, lighting, scale, divider, and turntable centers stay fixed. No cuts, reversals, camera movement, extra objects, text, watermark, graphics, or audio.
+```
+
+#### How to adapt it
+
+Swap in your paired character reference and specify timed key poses. Lock every identity, costume and camera attribute that must survive the rotation.
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Original post on X](<https://x.com/higgsfield/status/2097486959296057609>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#gothic-figure-turntable>)
+
+<a id="real-time-face-changer"></a>
+
+### Turn Generated Characters Into a Real-Time Face Filter
+
+[![Real-time face changer using a character generated with GPT Image 2.5](<https://pbs.twimg.com/amplify_video_thumb/2097490941062037504/img/QF404qyn14be0iaI.jpg>)](<https://x.com/higgsfield/status/2097491814760771856>)
+
+Generate a new character from a text prompt with GPT Image 2.5, then use GPT-6 Astra to apply it as a live camera face changer.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield>)
+
+[Original post on X](<https://x.com/higgsfield/status/2097491814760771856>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#real-time-face-changer>)
+
+<a id="book-page-animated-scene"></a>
+
+### Animate an Illustrated Book Page With Sound
+
+[![Illustrated book page transformed into an animated scene with GPT Image 2.5](<https://pbs.twimg.com/amplify_video_thumb/2097460779658452992/img/Io-riiPyRJTqDKax.jpg>)](<https://x.com/higgsfield_ai/status/2097461881602711918>)
+
+Start from one photographed book page, generate the animated scene with GPT Image 2.5, use Astra for the workflow and add sound design in REAPER with Soundly.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** 1 image
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097461881602711918>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#book-page-animated-scene>)
+
+<a id="walking-fighting-sprite-test"></a>
+
+### Generate Walking and Fighting Motions for a Pixel Character
+
+[![GPT Image 2.5 pixel-art combat motion test from a character reference](<https://pbs.twimg.com/media/HRugmH9bsAA2kS2.jpg>)](<https://x.com/pureso_studio/status/2097520619193868590>)
+
+Create multiple walking and combat poses while preserving a pixel character's outfit and keeping both feet involved in the motion.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [PURESO](<https://x.com/pureso_studio>)
+
+[Original post on X](<https://x.com/pureso_studio/status/2097520619193868590>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#walking-fighting-sprite-test>)
+
+<a id="consistent-illumination-stop-motion"></a>
+
+### Keep Illumination Stable Across Stop-Motion Frames
+
+[![Stop-motion frame sequence testing consistent object placement and illumination in GPT Image 2.5](<https://pbs.twimg.com/amplify_video_thumb/2097562716378677248/img/8sSSKbdpWUxLUqqK.jpg>)](<https://x.com/higgsfield_ai/status/2097563142821994503>)
+
+Test whether a new frame can preserve an object's position and lighting instead of silently redesigning the scene.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Higgsfield AI](<https://x.com/higgsfield_ai>)
+
+[Original post on X](<https://x.com/higgsfield_ai/status/2097563142821994503>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#consistent-illumination-stop-motion>)
+
+<a id="ten-turn-style-transfer-test"></a>
+
+### Stress-Test Style Transfer Across Ten Generations
+
+[![Multi-turn GPT Image 2.5 style-reference and design-transfer stress test](<https://pbs.twimg.com/amplify_video_thumb/2097572884919255040/img/FK347u7KRLp0AUvO.jpg>)](<https://x.com/ZHO_ZHO_ZHO/status/2097573152675316038>)
+
+Apply a distinctive design style across repeated turns to test reference transfer quality and where long conversations begin to drift.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [-Zho-](<https://x.com/ZHO_ZHO_ZHO>)
+
+[Original post on X](<https://x.com/ZHO_ZHO_ZHO/status/2097573152675316038>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#ten-turn-style-transfer-test>)
+
 <a id="text-and-layout"></a>
 
 ## Text and layout
@@ -879,6 +1207,94 @@ _The creator did not publish a reusable prompt for this example._
 **Shared by:** [Kevin Yuan](<https://x.com/KevinYu77034270>)
 
 [Original post on X](<https://x.com/KevinYu77034270/status/2097558397801677170>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#four-page-spanish-learning-unit>)
+
+<a id="six-prompt-sunburst-benchmark"></a>
+
+### Stress-Test Sunburst With Six Dense Creative Briefs
+
+[![GPT Image 2.5 result for the low-angle six-person fashion campaign prompt](<https://pbs.twimg.com/media/HRvg8ccbkAAZ3NQ.jpg>)](<https://x.com/ImagineArt_X/status/2097520459969601977>)
+
+Run the same six prompts through GPT Image 2 and GPT Image 2.5 Sunburst to compare fashion composition, technical diagrams, period graphics, comics, dense notice-board text and cel animation.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompts
+
+**Fashion campaign prompt** · `en`
+
+```text
+a fashion campaign for an invented label, shot from a camera on the ground with a 24mm lens tilted fifteen degrees. Six people in electric blue, tomato red, lime green, hot pink, butter yellow and lilac, all posed differently, against plain cobalt sky.
+```
+
+**Service-manual prompt** · `en`
+
+```text
+a domestic espresso machine drawn in section, 1960s service manual style, fine black line work with flat spot colour on cream paper. Fourteen numbered leader lines, a key down the right listing all fourteen parts, a scale bar in centimetres, and a title block reading FIG. 3 SECTIONAL VIEW MODEL C2.
+```
+
+**Infomercial prompt** · `en`
+
+```text
+a frame grab from a 1994 infomercial, standard definition video with scanlines. A host in a teal blazer, a battered saucer on a rotating plinth with Antarctic ice frozen around one leg, a price starburst, a phone number, and three lines of legal small print.
+```
+
+**Newspaper comic prompt** · `en`
+
+```text
+a 1960s Sunday newspaper comic strip on yellowed newsprint, six panels in two rows of three. A park ranger and a bear with a notched ear, the same campsite in every panel, dialogue specified word for word, one sound effect, and one panel with no dialogue at all.
+```
+
+**Notice-board prompt** · `en`
+
+```text
+a cork notice board outside a Welsh village post office, overcast light, seven pinned items. A choral society flyer, a lost cat poster on yellow paper, a handwritten piano card, a bus timetable with four times, a sheepdog photo, tear off tabs, and one blank white card.
+```
+
+**Cel-animation prompt** · `en`
+
+```text
+a still from a hand drawn Japanese animated film, late 1990s cel style, painted watercolour background. A dawn duel on black volcanic sand, a woman with a drawn katana facing an older man with a sheathed one, cherry blossom blowing right to left.
+```
+
+#### How to adapt it
+
+Reuse the benchmark structure: keep each prompt unchanged across models and generate once without editing. Replace the six subjects with your own difficult mix of people, small text, repeated characters and period-specific art direction.
+
+**Shared by:** [ImagineArt](<https://x.com/ImagineArt_X>)
+
+[Original post on X](<https://x.com/ImagineArt_X/status/2097520459969601977>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#six-prompt-sunburst-benchmark>)
+
+<a id="one-shot-product-landing-page"></a>
+
+### Build a Product Landing Page in One Shot
+
+[![Product landing page for a handheld car diagnostic device created with GPT Image 2.5 and Astra](<https://pbs.twimg.com/amplify_video_thumb/2097603154884046848/img/XHHcpZxxXwyuk_B5.jpg>)](<https://x.com/bogdan_qclay/status/2097603265563099593>)
+
+Combine GPT Image 2.5 assets with GPT-6 Astra to create a polished automotive diagnostic-device landing page in one pass.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Bogdan • QClay | Awsmd](<https://x.com/bogdan_qclay>)
+
+[Original post on X](<https://x.com/bogdan_qclay/status/2097603265563099593>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#one-shot-product-landing-page>)
+
+<a id="space-landing-page"></a>
+
+### Create an Interactive Space-Themed Landing Page
+
+[![Space-themed HorizonX landing page built with GPT Image 2.5 assets and GPT-6 Astra](<https://pbs.twimg.com/amplify_video_thumb/2097500377100980224/img/taNnwqMipI6ZArsL.jpg>)](<https://x.com/viktoroddy/status/2097500666357072243>)
+
+Use GPT Image 2.5 for a cinematic planetary visual system and GPT-6 Astra to assemble it into a polished landing-page experience.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+**Shared by:** [Viktor Oddy](<https://x.com/viktoroddy>)
+
+[Original post on X](<https://x.com/viktoroddy/status/2097500666357072243>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#space-landing-page>)
 
 <a id="sketch-to-image"></a>
 
