@@ -5,6 +5,8 @@ A curated collection of reusable GPT Image 2.5 prompts and workflows shared by r
 
 🟢 **Continuously updated**
 
+**English** · [日本語](<README.ja.md>)
+
 **[Browse the visual gallery](<https://magiccreator.ai/gpt-image-2-5-prompts>)** · [Try GPT Image 2.5](<https://magiccreator.ai/model/gpt-image-2-5>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
 The README currently includes **38 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
