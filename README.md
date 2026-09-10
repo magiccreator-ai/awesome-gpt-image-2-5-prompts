@@ -9,15 +9,15 @@ A curated collection of reusable GPT Image 2.5 prompts and workflows shared by r
 
 **[Browse the visual gallery](<https://magiccreator.ai/gpt-image-2-5-prompts>)** · [Try GPT Image 2.5](<https://magiccreator.ai/model/gpt-image-2-5>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **57 curated prompts**, with sources reviewed through **2026-09-09**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **63 curated prompts**, with sources reviewed through **2026-09-10**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
 - [Precise edits](#precise-edits) (4)
 - [Products and ads](#product-and-ads) (2)
-- [Creative generation](#creative-generation) (21)
-- [Reference consistency](#reference-consistency) (18)
-- [Text and layout](#text-and-layout) (8)
+- [Creative generation](#creative-generation) (23)
+- [Reference consistency](#reference-consistency) (21)
+- [Text and layout](#text-and-layout) (9)
 - [Sketch to image](#sketch-to-image) (4)
 - [Suggest a prompt](#suggest-a-prompt)
 
@@ -671,6 +671,85 @@ Replace the film or story premise and ask for a specific final moment. Add chara
 
 [Original post on X](<https://x.com/notjazii/status/2097398924420288784>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#avengers-doomsday-scene>)
 
+<a id="xerox-dragon-samurai-confrontation"></a>
+
+### Stage a Dragon and Samurai in a Gritty Xerox Print
+
+[![Cherry-red black and white xerox-style scene of a Japanese dragon confronting a samurai](<https://pbs.twimg.com/tweet_video_thumb/HRve7L1akAAOsTl.jpg>)](<https://x.com/higgsfield/status/2097520952242524190>)
+
+Build a tightly staged dragon-versus-samurai scene with a limited cherry-red, black and white palette and distressed photocopy texture.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+Create a single square 1:1 artwork, 2048 × 2048.
+
+SCENE AND COMPOSITION
+A giant Japanese dragon confronting a lone samurai in a vast windswept grassland. Wide view, fixed low camera, both subjects clearly situated in the same landscape. The dragon dominates the left side; the full-body samurai stands on the right, facing left toward the dragon. Leave a clear gap between them. A low, gently rolling horizon divides the open sky from the dense grassy field.
+
+DRAGON
+An unmistakably reptilian Japanese serpentine dragon with a long coiled body and an elegant S-curving neck. Large overlapping scale plates, broad segmented belly scutes, hard triangular dorsal spines, swept-back antler-like horns and a few long, smooth whiskers. An elongated reptilian skull with visible nostrils, an armored brow and a slightly open jaw showing sharp conical teeth. Powerful clawed forelimbs planted in the grass. Its head angles downward toward the samurai.
+
+Completely hairless: no fur, mane, beard, feathers, wolf ears or mammalian muzzle. No wings. Define the body with individual scale plates, never hair-like strokes.
+
+SAMURAI
+A full-body warrior seen from a three-quarter back/profile angle. Traditional kabuto helmet with a crescent crest, menpo mask, layered shoulder guards, intricately laced lamellar armor, divided armored skirt and shin guards. Knees slightly bent, feet firmly planted, torso leaning into a defensive stance. Both hands hold one katana diagonally upward-left between him and the dragon. Long cloth ties stream sideways in the wind.
+
+FIELD
+Dense tall grass fills the foreground and stretches far into the distance. Large bent blades and seed heads near the camera, progressively finer grass toward the horizon. Broad curved bands of leaning grass suggest wind rippling across the entire field. Rich, irregular white scratches describe individual stems against deep black masses.
+
+PALETTE AND RENDERING
+A strictly limited palette of cool dark cherry red, approximately #901C35, absolute black and near-white. Flat cherry-red sky; the same red appears between grass blades and in the samurai’s cloth ties.
+
+Realistic dimensional forms translated into an aggressively thresholded black-and-white xerox print. Crushed black shadows, fractured white highlights, dense stippled dithering, scratched engraving, irregular ink coverage and crunchy, slightly pixelated edges. A gritty photocopied dark-fantasy image, not polished digital painting. Preserve fine detail in scales, armor and grass.
+
+No smooth gradients, glossy CGI, clean anime shading, soft lighting, orange-red sky, buildings, trees, mountains, sun, moon, extra characters, duplicate swords, text, logos, borders, panels or watermarks. One complete full-bleed image.
+```
+
+#### How to adapt it
+
+Replace the two opponents and environment while keeping explicit left/right staging, scale contrast and a limited palette. Describe unwanted anatomy and rendering styles as exclusions.
+
+**Shared by:** [Higgsfield AI 🧩](<https://x.com/higgsfield>)
+
+[Original post on X](<https://x.com/higgsfield/status/2097520952242524190>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#xerox-dragon-samurai-confrontation>)
+
+<a id="mont-saint-michel-travel-portrait"></a>
+
+### Create a Candid Mont-Saint-Michel Travel Portrait
+
+[![Photorealistic travel portrait of a woman on the shore in front of Mont-Saint-Michel](<https://pbs.twimg.com/media/HRvuwVcasAAwAwf.jpg>)](<https://x.com/saniaspeaks_/status/2097532595814940683>)
+
+Generate a realistic vertical travel portrait with a carefully placed subject, recognizable coastal architecture and natural smartphone-like detail.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+A photorealistic candid travel portrait of a young East Asian woman standing on a quiet sandy shoreline beside large moss-covered rocks, with a magnificent historic stone abbey and medieval castle-like architecture rising dramatically on a rocky island behind her. She has long straight dark brown hair falling naturally over one shoulder, soft youthful facial features, and a gentle warm smile while looking directly at the camera.
+
+She is wearing a long oversized black coat with her hands casually tucked inside the pockets, layered over a light-colored outfit. A large soft cream-white scarf is wrapped warmly around her neck, hanging down the front with a small black designer-style emblem near the end. A delicate chain shoulder bag is partially visible.
+
+The composition captures her in the foreground while the vast historic abbey dominates the background, surrounded by ancient stone walls, rocky cliffs, sandy tidal flats, and a calm coastal atmosphere. A few small distant vehicles and people add realistic scale to the scene. Soft natural evening light and a clear pale blue sky create a peaceful European travel mood.
+
+Ultra-realistic photography, authentic candid travel photo, natural skin texture, realistic fabric details, soft cinematic lighting, subtle smartphone camera aesthetic, slightly dreamy color grading, natural proportions, detailed architecture, peaceful coastal atmosphere, vertical composition, 3:4 aspect ratio.
+```
+
+#### How to adapt it
+
+Swap the traveler, wardrobe, landmark and season while preserving the foreground/background hierarchy. Add a reference photo and change to edit mode when identity consistency matters.
+
+**Shared by:** [𝗦𝗮𝗻𝗶𝗮](<https://x.com/saniaspeaks_>)
+
+[Original post on X](<https://x.com/saniaspeaks_/status/2097532595814940683>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#mont-saint-michel-travel-portrait>)
+
 <a id="reference-consistency"></a>
 
 ## Reference consistency
@@ -1106,6 +1185,179 @@ _The creator did not publish a reusable prompt for this example._
 
 [Original post on X](<https://x.com/ZHO_ZHO_ZHO/status/2097573152675316038>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#ten-turn-style-transfer-test>)
 
+<a id="strict-geometry-spring-frame"></a>
+
+### Preserve Exact Geometry in a Studio Product Frame
+
+[![Side-by-side GPT Image 2.5 and GPT Image 2.0 render of an orange spiral sculpture](<https://pbs.twimg.com/amplify_video_thumb/2097513089268842496/img/gIhm45SziKF5_TBr.jpg>)](<https://x.com/higgsfield/status/2097514650518831462>)
+
+Use a rough geometry guide to render a polished orange spiral while locking every coil, camera angle, contact point and frame position.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+Produce one final studio-rendered animation frame using the supplied image as a STRICT geometry, pose and composition guide.
+
+The subject is one compact upright ORANGE spiral sculpture, a continuous thick smooth round tube wound into a cylindrical helix with an open center.
+
+Preserve the input's exact silhouette, number of turns, handedness, pitch, tube thickness, projected positions of every front and back coil, free-tip position and visibility, camera angle, object center, scale, floor contact and margins. Keep every geometric feature in the same image location. Do not rotate, mirror, stretch, redesign or reframe the sculpture.
+
+The reference is a rough viewport geometry guide, NOT a style reference. Replace its gray background with the clean off-white studio background. Replace its dark brown-orange shading with bright orange material. Remove the long hard leftward guide shadow and produce a short, soft natural contact shadow. Smooth any visible mesh facets while preserving every contour.
+
+Refine only the surface and lighting into a clean high-quality studio product image: opaque satin orange material, approximately #F28A2E, smooth rounded tubing, subtle realistic highlights, soft neutral off-white seamless floor and background, large soft light above and to camera-left, delicate natural contact shadow.
+
+The orange spiral shown in the reference is the final subject. No cube, no pedestal, no rods, no other objects, no text, no labels, no borders, no motion blur. Output exactly one square image.
+
+This is frame {FRAME} of a turntable sequence; the supplied guide already contains the correct rotation for this frame, so copy its pose exactly.
+```
+
+#### How to adapt it
+
+Replace the material and color while keeping the geometry-locking language. Supply one guide image per frame and substitute {FRAME} when building a consistent turntable sequence.
+
+**Shared by:** [Higgsfield AI 🧩](<https://x.com/higgsfield>)
+
+[Original post on X](<https://x.com/higgsfield/status/2097514650518831462>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#strict-geometry-spring-frame>)
+
+<a id="pet-pixel-idle-sprite-sheet"></a>
+
+### Turn a Pet Photo Into an Animated Pixel Sprite Sheet
+
+[![A 4 by 4 pixel-art sprite sheet generated from a pet cat photo](<https://pbs.twimg.com/media/HRwQBOaaIAA2qKX.jpg>)](<https://x.com/Mayz1169/status/2097571772904386607>)
+
+Convert a pet reference into 16 consistent pixel-art idle frames, with instructions for transparent PNG, GIF and individual-frame exports.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+Turn the pet in my uploaded reference image into an adorable pixel-art sprite with a subtle, seamless looping animation.
+
+PET REFERENCE
+Use the uploaded image as the visual reference. Preserve the pet’s species, recognizable colors, markings, body shape, eye color, and distinctive features, including any visible accessories.
+
+Adapt the pet into cute chibi proportions while keeping its natural anatomy recognizable. Preserve species-appropriate legs, paws, wings, fins, tails, ears, shells, or other features. Do not add limbs or features the animal does not have. Do not turn the pet into a human-shaped character or default to a cat-like design.
+
+If the reference is cropped, infer the missing body details naturally from the visible animal. If multiple pets appear, use the most prominent pet unless I specify otherwise.
+
+STYLE
+Create crisp, charming pixel art with clearly defined square pixels, clean outlines, gentle shading, and a cohesive limited palette.
+Use expressive features appropriate to the animal.
+No blurry edges, smooth vector styling, photorealistic rendering, or anti-aliased outlines.
+
+POSE AND ANIMATION
+Create 16 consecutive frames of one gentle, species-appropriate idle animation.
+
+Choose a comfortable resting, standing, perched, or hovering pose that suits this pet’s anatomy. Prefer a front-facing or slight three-quarter view that shows its recognizable features.
+
+Include:
+- A subtle breathing or resting motion appropriate to the species.
+- One small secondary motion, such as an ear twitch, tail sway, feather settling, antenna movement, or gentle fin movement.
+- One brief natural blink only if the species has movable eyelids.
+
+Choose only movements that make sense for this animal. Animals without movable eyelids must not blink. Do not force paw gestures, sitting poses, or mammal-like expressions onto other species.
+
+Keep the animation restrained and readable:
+- Keep the pet in the same position.
+- Anchor feet or other contact points for grounded animals.
+- For swimming or hovering animals, keep the body centered with minimal drift.
+- Keep the anatomy, markings, accessories, proportions, camera angle, and scale consistent.
+- No walking, turning, large gestures, camera movement, or scene changes.
+- Make the last frame transition smoothly back to the first.
+
+SPRITE SHEET
+Arrange the 16 frames in exactly 4 columns × 4 rows, ordered left to right, top to bottom.
+
+Canvas: 1024 × 1024 pixels.
+Each cell: 256 × 256 pixels.
+
+Use identical alignment, a fixed body anchor, and a consistent baseline across all cells.
+Choose a scale that accommodates the pet’s widest animation pose.
+Keep the entire pet inside each cell, with at least 16 pixels of transparent padding on every side, including around moving tails, wings, fins, ears, and accessories.
+
+These are consecutive frames of the SAME pet, not separate character variations.
+No overlapping cells, grid lines, labels, text, or watermarks.
+
+TRANSPARENCY
+Use a genuinely transparent RGBA background with alpha zero outside the pet.
+Do not draw a checkerboard or add a solid background, scenery, floor, water, or cast shadow.
+Preserve white and pale details inside the pet.
+
+If background removal is necessary, use a careful foreground mask. Do not globally erase a color that also appears in the pet’s body, markings, or accessories.
+
+DELIVERABLES
+Complete the actual files, not just instructions:
+
+1. A transparent 4 × 4 PNG sprite sheet at 1024 × 1024 pixels.
+2. A transparent animated GIF of the single pet, using all 16 frames at 256 × 256 pixels, looping forever with a 2.4-second cycle: 150 milliseconds per frame.
+3. A ZIP containing all 16 individual transparent PNG frames, named frame_01.png through frame_16.png in playback order.
+
+Use available image-generation and file-processing tools to generate the artwork, split the sheet, and assemble the GIF.
+
+Split the sheet into equal cells. Keep every exported frame on the same 256 × 256 canvas. Do not independently crop or scale frames, as this can cause jitter.
+Use nearest-neighbor sampling if resizing is needed to preserve crisp pixels.
+Configure GIF transparency and frame disposal so previous frames leave no trails.
+
+QUALITY CHECK
+Before exporting, inspect all 16 frames and preview the assembled animation.
+
+Check for:
+- Consistent species, anatomy, markings, and limb count.
+- Stable body position, scale, and contact points.
+- Clipped ears, tails, wings, fins, or accessories.
+- Stray pixels or fragments from neighboring cells.
+- Accidental removal of pale or white body details.
+- Background artifacts, unwanted position jumps, or GIF trails.
+- A smooth transition from the last frame back to the first.
+
+Fix any issues before delivering. Ensure the PNG files and GIF have genuinely transparent backgrounds.
+
+Provide the finished files with a GIF preview and download links.
+
+If your environment cannot create or attach an animated GIF or ZIP, clearly state which deliverables could not be completed. Do not present a static image as a completed animation.
+```
+
+#### How to adapt it
+
+Upload a clear photo of one pet. Adjust the frame count, grid dimensions and motion list for your game, and keep anatomy-specific rules for non-mammal pets.
+
+**Shared by:** [Kiki](<https://x.com/Mayz1169>)
+
+[Original post on X](<https://x.com/Mayz1169/status/2097571772904386607>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#pet-pixel-idle-sprite-sheet>)
+
+<a id="two-reference-style-transfer"></a>
+
+### Transfer One Image's Style Onto Another Subject
+
+[![Workflow comparison showing a cobra photo transferred into a colorful illustrated reference style](<https://pbs.twimg.com/media/HRx1JG3bMAA-7Ky.jpg>)](<https://x.com/thefinnmckenty/status/2097681378657911195>)
+
+Keep the content of one reference while borrowing the medium, palette, mood, texture and rendering technique of a second reference.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 2 images
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+Create an image of the content as shown in [image 1] but with the same medium, color palette, mood, rendering technique, saturation level, textures, and overall style of [image 2]. Objective: Style transfer from [image 1] to [image 2]
+```
+
+#### How to adapt it
+
+Use image 1 for subject and composition, and image 2 only for visual treatment. Name the style attributes that matter most when the references could be interpreted ambiguously.
+
+**Shared by:** [Finn McKenty](<https://x.com/thefinnmckenty>)
+
+[Original post on X](<https://x.com/thefinnmckenty/status/2097681378657911195>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#two-reference-style-transfer>)
+
 <a id="text-and-layout"></a>
 
 ## Text and layout
@@ -1295,6 +1547,32 @@ _The creator did not publish a reusable prompt for this example._
 **Shared by:** [Viktor Oddy](<https://x.com/viktoroddy>)
 
 [Original post on X](<https://x.com/viktoroddy/status/2097500666357072243>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#space-landing-page>)
+
+<a id="character-travel-magazine-guide"></a>
+
+### Create a Photo-Rich Travel Magazine Guide
+
+[![GPT Image 2.5 travel magazine page placing a character in a detailed illustrated guide to Mordor](<https://pbs.twimg.com/media/HRvnVMIbMAE5-nd.jpg>)](<https://x.com/minchoi/status/2097525572591136869>)
+
+Turn a character photo and destination into an information-dense travel magazine page with readable sections, recommendations and integrated sightseeing photography.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Published prompt** · `en`
+
+```text
+Create image of Magazine feature article [travel] guide page, cute, information dense photo book style magazine feature article page. Add all necessary sections, tips, recommendations, information. add photos for any sections and recommendations if you like. Place the attached person at the precise location of [Plateau of Gorgoroth in Mordor]. Seamlessly blend the attached person as if they are sightseeing. Approach this task with the understanding that this is a critical, information rich page that will significantly influence visitor numbers, text accuracy is important. Fully use the entire [9:16] page.
+```
+
+#### How to adapt it
+
+Replace the bracketed guide type, destination and page ratio, then attach a clear character photo. Name the sections or facts that matter most when factual accuracy is more important than free-form editorial invention.
+
+**Shared by:** [Min Choi](<https://x.com/minchoi>)
+
+[Original post on X](<https://x.com/minchoi/status/2097525572591136869>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#character-travel-magazine-guide>)
 
 <a id="sketch-to-image"></a>
 
