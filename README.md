@@ -9,14 +9,14 @@ A curated collection of reusable GPT Image 2.5 prompts and workflows shared by r
 
 **[Browse the visual gallery](<https://magiccreator.ai/gpt-image-2-5-prompts>)** · [Try GPT Image 2.5](<https://magiccreator.ai/model/gpt-image-2-5>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **63 curated prompts**, with sources reviewed through **2026-09-10**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **65 curated prompts**, with sources reviewed through **2026-09-11**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
 - [Precise edits](#precise-edits) (4)
 - [Products and ads](#product-and-ads) (2)
-- [Creative generation](#creative-generation) (23)
-- [Reference consistency](#reference-consistency) (21)
+- [Creative generation](#creative-generation) (24)
+- [Reference consistency](#reference-consistency) (22)
 - [Text and layout](#text-and-layout) (9)
 - [Sketch to image](#sketch-to-image) (4)
 - [Suggest a prompt](#suggest-a-prompt)
@@ -750,6 +750,113 @@ Swap the traveler, wardrobe, landmark and season while preserving the foreground
 
 [Original post on X](<https://x.com/saniaspeaks_/status/2097532595814940683>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#mont-saint-michel-travel-portrait>)
 
+<a id="structured-documentary-realism-frames"></a>
+
+### Write Structured Prompts for Documentary-Style Frames
+
+[![Documentary-style frames generated from structured realism prompts and assembled into a video](<https://pbs.twimg.com/amplify_video_thumb/2098114995204898816/img/cMWoPbqJAzpWxls-.jpg>)](<https://x.com/techhalla/status/2098119664781894091>)
+
+Use a repeatable field-by-field prompt format to specify subject, moment, camera, composition, light, material detail and deliberate smartphone flaws before animating the frames.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+#### Prompts
+
+**Robots on a San Francisco street** · `en`
+
+```text
+WHO: 2 robots, pale polymer, cables, black visor, scuffed metal hands. Man ~40
+WEAR: navy windbreaker, jeans
+HELD_AND_BODY: R1 far curb pistol both hands; civilian tote frozen mid-step; R2 20m uphill at R1
+OTHERS: 3 phones this curb; 2 running far w/ coffee
+STILL_TYPE: paparazzi across California St
+THE_SECOND: hold-up as crowd moved
+PLACE: California St Nob Hill SF
+WHEN: midday marine layer
+DRESSING: tracks, Powell-Hyde, Victorian bays, Transamerica, wet asphalt
+SHOT: long digital zoom
+ANGLE: opp. sidewalk high
+FG: phones + denim back soft
+PLACEMENT: R1+civilian mid far curb; R2 small uphill
+LOOKROOM_CROP: look-room right to pyramid; tilt; car roof clips LL
+BODY: S24 Ultra rear
+OPTIC: 10x periscope
+HOLD: handheld
+FOCUS: civilian face + R1 visor
+SOFT: FG phones smear; pyramid mushy
+SOURCE: overcast SF midday even cool
+HIT: soft shadows; shells flat grey
+PACK_FLAWS: zoom mush fingerprint sky noise
+MATTER: plate scuffs pores moving jackets
+AFTERTASTE: hush of a street no longer ordinary
+```
+
+**Doorbell-camera delivery** · `en`
+
+```text
+WHO: woman ~67 Korean short perm hearing aid chin beauty-spot
+WEAR: housecoat over day clothes slippers
+HELD_AND_BODY: yoghurt + small envelope held out to door; unready face
+OTHERS: courier gloved hand just in at edge
+STILL_TYPE: doorbell camera still
+THE_SECOND: she opened for the courier
+PLACE: ground-floor apartment doorway
+WHEN: 9:08am
+DRESSING: shoe rack faded mat cracked-pot plant stacked circulars
+SHOT: fixed wide
+ANGLE: high doorbell looking down
+FG: doorframe + plant at sides
+PLACEMENT: she fills lower two-thirds; yoghurt label readable
+LOOKROOM_CROP: locked to jamb; cheap wide stretch
+BODY: cheap wireless doorbell cam
+OPTIC: wide
+HOLD: fixed auto exposure
+FOCUS: her eyes + envelope
+SOFT: mat going soft
+SOURCE: porch shade + warm hall lamp behind her
+HIT: face a little hot from auto-ex; hall amber
+PACK_FLAWS: hand motion-smear cheap wide stretch cobweb upper corner
+MATTER: housecoat nap yoghurt lid envelope paper
+AFTERTASTE: ordinary surprise of being seen at your own door
+```
+
+**Rainy Sunday-league touchline** · `en`
+
+```text
+WHO: boys’ coach ~52 northern English red ears flattened nose thinning rain-wet hair
+WEAR: sopping club jacket
+HELD_AND_BODY: wet folder going clear; shouting at pitch one finger up; unused kid bottle at feet
+OTHERS: 2 under one umbrella; players small on pitch
+STILL_TYPE: parent in stands pinched-zoom
+THE_SECOND: touchline mid-arg with ref
+PLACE: Sunday-league pitch
+WHEN: 4pm rain
+DRESSING: patchy grass leaning corner flag thermos on bench floodlights off
+SHOT: long phone zoom
+ANGLE: opposite stand
+FG: chain-link over near FG
+PLACEMENT: coach isolated on touchline; lots of wet grass
+LOOKROOM_CROP: handheld pinch; grass heavy lower frame
+BODY: Sony Xperia 1 V rear
+OPTIC: 85mm-eq crop
+HOLD: handheld
+FOCUS: open mouth + wet folder
+SOFT: players small and soft
+SOURCE: low wet-sky daylight even cold
+HIT: jacket blacks crushing; rain streaks near lens
+PACK_FLAWS: zoom shake drops on glass
+MATTER: red ears wet clear plastic sopping fabric
+AFTERTASTE: raw still of a match talked about in-car
+```
+
+#### How to adapt it
+
+Keep the field names but replace each value for your own scene. The most transferable fields are the exact moment, subject placement, capture device, focus falloff, material texture and a few plausible camera flaws.
+
+**Shared by:** [TechHalla](<https://x.com/techhalla>)
+
+[Original post on X](<https://x.com/techhalla/status/2098119664781894091>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#structured-documentary-realism-frames>)
+
 <a id="reference-consistency"></a>
 
 ## Reference consistency
@@ -1357,6 +1464,45 @@ Use image 1 for subject and composition, and image 2 only for visual treatment. 
 **Shared by:** [Finn McKenty](<https://x.com/thefinnmckenty>)
 
 [Original post on X](<https://x.com/thefinnmckenty/status/2097681378657911195>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#two-reference-style-transfer>)
+
+<a id="character-sheets-to-realistic-video"></a>
+
+### Build Character Sheets Before a Realistic Video Scene
+
+[![Realistic courtyard video created from GPT Image 2.5 character sheets and a location frame](<https://pbs.twimg.com/amplify_video_thumb/2097698636524351488/img/jZbg1XW-v08GqwIa.jpg>)](<https://x.com/abxxai/status/2097698694296686623>)
+
+Create matching character sheets and a location frame with GPT Image 2.5, then use them as identity and scene references for a realistic video workflow.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+#### Prompts
+
+**Woman character-sheet prompt** · `en`
+
+```text
+Multi-panel studio photographs of the same real woman across four panels: front-facing, three-quarter turn, full profile, and a rear view, all on a seamless neutral studio backdrop with soft even lighting. She has long straight golden-brown hair with warm honey-blonde balayage, loosely swept back with soft face-framing pieces, an oval face, warm brown eyes, softly tanned olive-warm skin, full lips, small stud earrings. She wears a rust-terracotta linen strapless wrap top tied at the back, matching wide-leg rust-terracotta linen trousers, and a woven raffia belt cinched at the waist. Same lighting, same skin texture, same wardrobe in every panel. Natural film-still photograph quality, visible skin pores and texture, no retouching, no beauty filter.
+```
+
+**Location-frame prompt** · `en`
+
+```text
+Two women framed by a sun-bleached stone archway — one in the near foreground at frame right, a woman with long straight golden-brown hair loosely pulled back with soft face-framing pieces, warm honey-blonde balayage catching the light, an oval face with warm brown eyes, softly tanned olive-warm skin and full lips, small stud earrings, wearing a rust-terracotta linen wrap top and matching wide-leg linen trousers cinched with a woven raffia belt, hands clasped in front of her, turned back over her shoulder toward camera; a second woman, features unspecified, stands further back in the courtyard in a deep forest-green silk blouse and wide-leg cream trousers, leaning against a whitewashed stone pillar, gazing out toward the sea. Setting: the threshold of a Mediterranean cliffside courtyard, hand-laid terracotta mosaic floor and a weathered stone archway thick with trailing bougainvillea in the foreground, a sun-drenched courtyard beyond with wrought-iron lanterns, potted olive trees and a low stone fountain, whitewashed rooftops and a pale hazy sea filling the horizon, soft late-afternoon light. Shot on an early-2000s point-and-shoot digicam with harsh direct on-camera fill flash that aggressively illuminates the near woman and the archway, flattening her features and putting sharp specular highlights on the linen, the stone and her shoulders; the courtyard and sea beyond stay visible but hazy, milky and underexposed relative to the flash. Warm, slightly saturated CCD tones, strong bloom and halation at the archway edges, minor digital noise. Candid amateur, Y2K editorial, unpolished but stylized.
+```
+
+**Man character-sheet prompt** · `en`
+
+```text
+MAN — FILM CHARACTER SHEET
+Multi-panel studio photographs of the same real man across four panels: front-facing, three-quarter turn, full profile, and a rear view, all on a seamless neutral studio backdrop with soft even lighting. He has dark brown hair styled back off the forehead, thick dark eyebrows, warm brown eyes, short trimmed beard, strong jawline, olive-tan skin. He wears an open-collar off-white linen shirt with the top two buttons undone, no undershirt, sleeves rolled loosely to mid-forearm, tucked into tailored charcoal linen trousers, with a thin gold chain barely visible at the open collar. Same lighting, same skin texture, same wardrobe in every panel. Natural film-still photograph quality, visible skin pores and texture, no retouching, no beauty filter.
+```
+
+#### How to adapt it
+
+Replace both character descriptions, wardrobe and setting while keeping the four-view sheet structure and matching studio light. Generate the sheets first, then attach the selected identity reference when creating the location frame.
+
+**Shared by:** [Abdul Shakoor](<https://x.com/abxxai>)
+
+[Original post on X](<https://x.com/abxxai/status/2097698694296686623>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#character-sheets-to-realistic-video>)
 
 <a id="text-and-layout"></a>
 

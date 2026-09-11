@@ -9,14 +9,14 @@
 
 **[ビジュアルギャラリーを見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts>)** · [GPT Image 2.5を試す](<https://magiccreator.ai/ja/model/gpt-image-2-5>) · [プロンプトを推薦する](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-現在、厳選した**63件のプロンプト**を掲載（出典の最新確認日：**2026-09-10**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
+現在、厳選した**65件のプロンプト**を掲載（出典の最新確認日：**2026-09-11**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
 
 ## 目次
 
 - [精密な編集](#precise-edits) (4)
 - [商品画像・広告](#product-and-ads) (2)
-- [クリエイティブ生成](#creative-generation) (23)
-- [参照画像の一貫性](#reference-consistency) (21)
+- [クリエイティブ生成](#creative-generation) (24)
+- [参照画像の一貫性](#reference-consistency) (22)
 - [文字・レイアウト](#text-and-layout) (9)
 - [スケッチから画像へ](#sketch-to-image) (4)
 - [プロンプトを推薦する](#suggest-a-prompt)
@@ -750,6 +750,113 @@ Ultra-realistic photography, authentic candid travel photo, natural skin texture
 
 [Xの元投稿](<https://x.com/saniaspeaks_/status/2097532595814940683>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#mont-saint-michel-travel-portrait>)
 
+<a id="structured-documentary-realism-frames"></a>
+
+### ドキュメンタリー風フレームを構造化プロンプトで作る
+
+[![構造化された写実プロンプトから生成し、映像にまとめたドキュメンタリー風フレーム](<https://pbs.twimg.com/amplify_video_thumb/2098114995204898816/img/cMWoPbqJAzpWxls-.jpg>)](<https://x.com/techhalla/status/2098119664781894091>)
+
+人物、瞬間、カメラ、構図、光、素材感、意図的なスマートフォン撮影の欠点を項目別に指定し、フレームを動画化します。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** なし
+
+#### プロンプト
+
+**サンフランシスコの路上にいるロボット** · `en`
+
+```text
+WHO: 2 robots, pale polymer, cables, black visor, scuffed metal hands. Man ~40
+WEAR: navy windbreaker, jeans
+HELD_AND_BODY: R1 far curb pistol both hands; civilian tote frozen mid-step; R2 20m uphill at R1
+OTHERS: 3 phones this curb; 2 running far w/ coffee
+STILL_TYPE: paparazzi across California St
+THE_SECOND: hold-up as crowd moved
+PLACE: California St Nob Hill SF
+WHEN: midday marine layer
+DRESSING: tracks, Powell-Hyde, Victorian bays, Transamerica, wet asphalt
+SHOT: long digital zoom
+ANGLE: opp. sidewalk high
+FG: phones + denim back soft
+PLACEMENT: R1+civilian mid far curb; R2 small uphill
+LOOKROOM_CROP: look-room right to pyramid; tilt; car roof clips LL
+BODY: S24 Ultra rear
+OPTIC: 10x periscope
+HOLD: handheld
+FOCUS: civilian face + R1 visor
+SOFT: FG phones smear; pyramid mushy
+SOURCE: overcast SF midday even cool
+HIT: soft shadows; shells flat grey
+PACK_FLAWS: zoom mush fingerprint sky noise
+MATTER: plate scuffs pores moving jackets
+AFTERTASTE: hush of a street no longer ordinary
+```
+
+**ドアベルカメラに映る配達** · `en`
+
+```text
+WHO: woman ~67 Korean short perm hearing aid chin beauty-spot
+WEAR: housecoat over day clothes slippers
+HELD_AND_BODY: yoghurt + small envelope held out to door; unready face
+OTHERS: courier gloved hand just in at edge
+STILL_TYPE: doorbell camera still
+THE_SECOND: she opened for the courier
+PLACE: ground-floor apartment doorway
+WHEN: 9:08am
+DRESSING: shoe rack faded mat cracked-pot plant stacked circulars
+SHOT: fixed wide
+ANGLE: high doorbell looking down
+FG: doorframe + plant at sides
+PLACEMENT: she fills lower two-thirds; yoghurt label readable
+LOOKROOM_CROP: locked to jamb; cheap wide stretch
+BODY: cheap wireless doorbell cam
+OPTIC: wide
+HOLD: fixed auto exposure
+FOCUS: her eyes + envelope
+SOFT: mat going soft
+SOURCE: porch shade + warm hall lamp behind her
+HIT: face a little hot from auto-ex; hall amber
+PACK_FLAWS: hand motion-smear cheap wide stretch cobweb upper corner
+MATTER: housecoat nap yoghurt lid envelope paper
+AFTERTASTE: ordinary surprise of being seen at your own door
+```
+
+**雨の少年サッカーのタッチライン** · `en`
+
+```text
+WHO: boys’ coach ~52 northern English red ears flattened nose thinning rain-wet hair
+WEAR: sopping club jacket
+HELD_AND_BODY: wet folder going clear; shouting at pitch one finger up; unused kid bottle at feet
+OTHERS: 2 under one umbrella; players small on pitch
+STILL_TYPE: parent in stands pinched-zoom
+THE_SECOND: touchline mid-arg with ref
+PLACE: Sunday-league pitch
+WHEN: 4pm rain
+DRESSING: patchy grass leaning corner flag thermos on bench floodlights off
+SHOT: long phone zoom
+ANGLE: opposite stand
+FG: chain-link over near FG
+PLACEMENT: coach isolated on touchline; lots of wet grass
+LOOKROOM_CROP: handheld pinch; grass heavy lower frame
+BODY: Sony Xperia 1 V rear
+OPTIC: 85mm-eq crop
+HOLD: handheld
+FOCUS: open mouth + wet folder
+SOFT: players small and soft
+SOURCE: low wet-sky daylight even cold
+HIT: jacket blacks crushing; rain streaks near lens
+PACK_FLAWS: zoom shake drops on glass
+MATTER: red ears wet clear plastic sopping fabric
+AFTERTASTE: raw still of a match talked about in-car
+```
+
+#### 応用方法
+
+項目名は残し、各値を自分の場面に合わせて置き換えます。特に、瞬間、人物配置、撮影端末、被写界深度、素材感、現実らしい少数の撮影上の欠点が再利用しやすい要素です。
+
+**作者:** [TechHalla](<https://x.com/techhalla>)
+
+[Xの元投稿](<https://x.com/techhalla/status/2098119664781894091>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#structured-documentary-realism-frames>)
+
 <a id="reference-consistency"></a>
 
 ## 参照画像の一貫性
@@ -1357,6 +1464,45 @@ Create an image of the content as shown in [image 1] but with the same medium, c
 **作者:** [Finn McKenty](<https://x.com/thefinnmckenty>)
 
 [Xの元投稿](<https://x.com/thefinnmckenty/status/2097681378657911195>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#two-reference-style-transfer>)
+
+<a id="character-sheets-to-realistic-video"></a>
+
+### 写実的な映像シーンの前にキャラクターシートを作る
+
+[![GPT Image 2.5のキャラクターシートと場所フレームから作られた写実的な中庭の映像](<https://pbs.twimg.com/amplify_video_thumb/2097698636524351488/img/jZbg1XW-v08GqwIa.jpg>)](<https://x.com/abxxai/status/2097698694296686623>)
+
+GPT Image 2.5で照合できるキャラクターシートと場所のフレームを作り、人物と場面の参照として写実的な映像ワークフローに使います。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** なし
+
+#### プロンプト
+
+**女性のキャラクターシート用プロンプト** · `en`
+
+```text
+Multi-panel studio photographs of the same real woman across four panels: front-facing, three-quarter turn, full profile, and a rear view, all on a seamless neutral studio backdrop with soft even lighting. She has long straight golden-brown hair with warm honey-blonde balayage, loosely swept back with soft face-framing pieces, an oval face, warm brown eyes, softly tanned olive-warm skin, full lips, small stud earrings. She wears a rust-terracotta linen strapless wrap top tied at the back, matching wide-leg rust-terracotta linen trousers, and a woven raffia belt cinched at the waist. Same lighting, same skin texture, same wardrobe in every panel. Natural film-still photograph quality, visible skin pores and texture, no retouching, no beauty filter.
+```
+
+**場所フレーム用プロンプト** · `en`
+
+```text
+Two women framed by a sun-bleached stone archway — one in the near foreground at frame right, a woman with long straight golden-brown hair loosely pulled back with soft face-framing pieces, warm honey-blonde balayage catching the light, an oval face with warm brown eyes, softly tanned olive-warm skin and full lips, small stud earrings, wearing a rust-terracotta linen wrap top and matching wide-leg linen trousers cinched with a woven raffia belt, hands clasped in front of her, turned back over her shoulder toward camera; a second woman, features unspecified, stands further back in the courtyard in a deep forest-green silk blouse and wide-leg cream trousers, leaning against a whitewashed stone pillar, gazing out toward the sea. Setting: the threshold of a Mediterranean cliffside courtyard, hand-laid terracotta mosaic floor and a weathered stone archway thick with trailing bougainvillea in the foreground, a sun-drenched courtyard beyond with wrought-iron lanterns, potted olive trees and a low stone fountain, whitewashed rooftops and a pale hazy sea filling the horizon, soft late-afternoon light. Shot on an early-2000s point-and-shoot digicam with harsh direct on-camera fill flash that aggressively illuminates the near woman and the archway, flattening her features and putting sharp specular highlights on the linen, the stone and her shoulders; the courtyard and sea beyond stay visible but hazy, milky and underexposed relative to the flash. Warm, slightly saturated CCD tones, strong bloom and halation at the archway edges, minor digital noise. Candid amateur, Y2K editorial, unpolished but stylized.
+```
+
+**男性のキャラクターシート用プロンプト** · `en`
+
+```text
+MAN — FILM CHARACTER SHEET
+Multi-panel studio photographs of the same real man across four panels: front-facing, three-quarter turn, full profile, and a rear view, all on a seamless neutral studio backdrop with soft even lighting. He has dark brown hair styled back off the forehead, thick dark eyebrows, warm brown eyes, short trimmed beard, strong jawline, olive-tan skin. He wears an open-collar off-white linen shirt with the top two buttons undone, no undershirt, sleeves rolled loosely to mid-forearm, tucked into tailored charcoal linen trousers, with a thin gold chain barely visible at the open collar. Same lighting, same skin texture, same wardrobe in every panel. Natural film-still photograph quality, visible skin pores and texture, no retouching, no beauty filter.
+```
+
+#### 応用方法
+
+4方向のシート構成と共通のスタジオ照明を保ちながら、2人の人物設定、衣装、場所を置き換えます。先にシートを生成し、場所のフレームを作るときに選んだ人物参照を添付してください。
+
+**作者:** [Abdul Shakoor](<https://x.com/abxxai>)
+
+[Xの元投稿](<https://x.com/abxxai/status/2097698694296686623>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#character-sheets-to-realistic-video>)
 
 <a id="text-and-layout"></a>
 
