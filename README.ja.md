@@ -9,15 +9,15 @@
 
 **[ビジュアルギャラリーを見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts>)** · [GPT Image 2.5を試す](<https://magiccreator.ai/ja/model/gpt-image-2-5>) · [プロンプトを推薦する](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-現在、厳選した**65件のプロンプト**を掲載（出典の最新確認日：**2026-09-11**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
+現在、厳選した**70件のプロンプト**を掲載（出典の最新確認日：**2026-09-14**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
 
 ## 目次
 
-- [精密な編集](#precise-edits) (4)
+- [精密な編集](#precise-edits) (5)
 - [商品画像・広告](#product-and-ads) (2)
 - [クリエイティブ生成](#creative-generation) (24)
-- [参照画像の一貫性](#reference-consistency) (22)
-- [文字・レイアウト](#text-and-layout) (9)
+- [参照画像の一貫性](#reference-consistency) (25)
+- [文字・レイアウト](#text-and-layout) (10)
 - [スケッチから画像へ](#sketch-to-image) (4)
 - [プロンプトを推薦する](#suggest-a-prompt)
 
@@ -144,6 +144,39 @@ Keep the composition and world of the original design on the right, but remake i
 **作者:** [ぽんず | AI映像](<https://x.com/ponzponz15>)
 
 [Xの元投稿](<https://x.com/ponzponz15/status/2097513870969688188>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#gender-perspective-poster-redesign>)
+
+<a id="opaque-hair-artifact-control"></a>
+
+### 髪を不透明に指定してアーティファクトを抑える
+
+[![細い白髪を半透明のノイズ状の重なりなしで描いたイラストのアップ](<https://pbs.twimg.com/media/HR-if58bkAAeV0p.jpg>)](<https://x.com/magu_ai_h/status/2098574625609601076>)
+
+細いイラスト髪の重なりに見えるノイズを不要な半透明表現として捉え、すべての髪を不透明にし、下位レイヤーを描かないよう明示します。
+
+**モデル:** GPT Image 2.5 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元の日本語プロンプト** · `ja`
+
+```text
+髪は全て透過せず、下位レイヤーを描写しない
+髪の不透明度は100％とする
+```
+
+**英訳** · `en`
+
+```text
+Render all hair fully opaque; do not depict underlying layers. Set hair opacity to 100%.
+```
+
+#### 応用方法
+
+通常のノイズ除去指示に不透明度の制約を追加します。透けた重なりが質感問題の原因である場合に限り、同じ考え方をほかのレイヤー状の細部にも応用してください。
+
+**作者:** [magu@ai](<https://x.com/magu_ai_h>)
+
+[Xの元投稿](<https://x.com/magu_ai_h/status/2098574625609601076>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#opaque-hair-artifact-control>)
 
 <a id="product-and-ads"></a>
 
@@ -1504,6 +1537,100 @@ Multi-panel studio photographs of the same real man across four panels: front-fa
 
 [Xの元投稿](<https://x.com/abxxai/status/2097698694296686623>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#character-sheets-to-realistic-video>)
 
+<a id="character-amateur-failure-photo-grid"></a>
+
+### 人物参照から失敗した素人写真のグリッドを作る
+
+[![同じイラスト人物を写した9種類の不完全なスマートフォン写真構図](<https://pbs.twimg.com/media/HSG6x91bwAA58uO.jpg>)](<https://x.com/8co28/status/2099164852560539975>)
+
+1枚の人物参照から、人物と服装の一貫性を保ちながら、意図的に不格好な素人写真を3×3のコンタクトシートとして生成します。
+
+**モデル:** GPT Image 2.5 · **モード:** 編集 · **入力:** 1枚の画像
+
+#### プロンプト
+
+**元の日本語プロンプト** · `ja`
+
+```text
+素人の失敗写真の数々、3×3、9:16
+```
+
+**英訳** · `en`
+
+```text
+A collection of failed amateur photos, arranged in a 3×3 grid at 9:16.
+```
+
+#### 応用方法
+
+鮮明な人物または商品の参照画像を1枚添付し、必要に応じて「素人の失敗写真」を、動体ブレ、偶然の遮り、不自然なフレーミング、露出のばらつきなど、より具体的な撮影表現に置き換えてください。
+
+**作者:** [852話(hakoniwa)](<https://x.com/8co28>)
+
+[Xの元投稿](<https://x.com/8co28/status/2099164852560539975>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#character-amateur-failure-photo-grid>)
+
+<a id="summer-vacation-game-cutscene-workflow"></a>
+
+### 夏休みの脚本からゲーム風の連続シーンを作る
+
+[![日本の海辺の町を子どもが走る夏休みのゲーム風シーン](<https://pbs.twimg.com/amplify_video_thumb/2098994088112795648/img/PTauqoAIaii5EX8h.jpg>)](<https://x.com/muku_sns/status/2098994140310843550>)
+
+子どもの夏休みを描く脚本から一貫したゲーム風の静止画を6枚生成し、連続した映像の参照として使います。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** なし
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+#### 応用方法
+
+繰り返し登場する人物、場所、季節、UIモチーフを含む短い脚本を書き、キーフレームをまとめて生成してから動画化します。静止画生成と動画生成のプロンプトは別工程として管理してください。
+
+**作者:** [むく | AIアートのプロ](<https://x.com/muku_sns>)
+
+[Xの元投稿](<https://x.com/muku_sns/status/2098994140310843550>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#summer-vacation-game-cutscene-workflow>)
+
+<a id="sixteen-frame-magical-transformation"></a>
+
+### 16コマで連続する魔法の変身シーンを作る
+
+[![白い衣装から黒い魔法形態へ進む4×4のアニメ風変身シート](<https://pbs.twimg.com/media/HSEO58wagAAsr9Y.jpg>)](<https://x.com/agi_aibusi/status/2098975357789446388>)
+
+エネルギーが高まり、衣装が変化し、最後のポーズへ落ち着くまで、同じ人物と分かる状態を保った変身シーンを4×4の連続コマにまとめます。
+
+**モデル:** GPT Image 2.5 · **モード:** ワークフロー · **入力:** なし
+
+#### プロンプト
+
+**公開された日本語プロンプト** · `ja`
+
+```text
+高品質な日本製2Dゲームアニメ風の「変身シーンの連続原画」1枚。横4列×縦4行、合計16コマを正確に等分し、左上から右下へ時系列で読めるようにする。16枚の無関係なポーズ集ではなく、同じ成人女性が一続きの動きで変身する。
+
+主人公は24歳の可愛い成人女性1人。シャンパンブロンドの短いアシンメトリーボブ、黒いリボン付きカチューシャ、大きな紫色の瞳、整った鼻と口、上品で愛嬌のある顔、健康的で女性らしい体型。全コマで同一人物と分かる顔立ち、頭身、体型を保ち、顔と目を最優先でシャープに美しく描く。正面の固定カメラ、全身を頭からブーツまで表示。背景は全コマ共通の淡いブルーグレーのスタジオ。細い区切り線のみ、文字は入れない。
+
+【1〜3コマ・変身前】白銀の刺繍とフリルがある白いコルセット風ミニドレス、白い独立した袖、黒い模様入りニーハイ、黒いバックル付きブーツ。金髪のまま床に両足をつけ、うつむいて拳を握る。紫色の火花が少しずつ増え、髪とスカートが風で浮き始める。
+
+【4〜6コマ・気を高める】膝を曲げて踏ん張り、肩と腕に力を込め、顔を上げる。黒紫とマゼンタのオーラが下から激しく噴き上がり、稲妻、黒い結晶、床の光の輪が増える。オーラの勢いで髪とスカートが大きく舞い上がる。毎コマ少しずつ強くし、同じエフェクトを複製しない。
+
+【7〜10コマ・長めの変身最高潮】歯を食いしばってから頭を反らして叫ぶ。4コマにわたり、オーラがさらに巨大になり、マゼンタの稲妻と黒紫の炎が連続して吹き荒れる。白い衣装の縫い目が光って裂け、白い布片とレースが段階的に四方へ飛び、10コマ目で最大の閃光と衝撃波が爆発する。魔法の黒い衣装が白い衣装と入れ替わる瞬間を連続的に描く。爆発中も顔と全身の輪郭が読めるようにする。
+
+【11〜12コマ・覚醒の余韻】白銀の髪、赤紫に光る瞳、小さな黒い角、小さなコウモリ風の翼、細い悪魔の尻尾が現れる。黒紫の炎と光の輪がまだ激しく回り、両足が床から離れ始める。表情は叫びから静かな驚きへ、そして余裕のある微笑みへ移る。
+
+【13〜16コマ・浮遊したまま可愛くポージング】変身後の姿を完全に統一。両方のブーツを床から明確に離し、足元に浮遊の影を描く。13コマ目は両腕を柔らかく開いて微笑む。14コマ目は片膝を可愛く曲げ、片手を頬に添える。15コマ目は軽くウインクしながら指先で小さなハートを作る。16コマ目は両手を広げてカメラへ向けていたずらっぽく微笑む。全コマで宙に浮いたまま、髪・翼・尻尾・スカートがゆっくり揺れ、オーラが周囲を巡る。各ポーズは自然につながり、人物の大きさと顔を変えない。
+
+【変身後の衣装】変身前と一目で違う、黒と濃いプラム色のデビル風ゲーム衣装。肩とウエストが見える、深めのネックラインの黒いストラップ付きビスチェ。腹部を見せ、脇に深いスリットの入った短い非対称の黒いフリルスカート。スカートの内側は不透明な黒いダンス用ショートパンツ。黒いニーハイ、黒いブーツ、細身の独立した袖。成人女性らしい魅力と可愛さを両立し、11〜16コマで衣装の形と色を変えない。
+
+画風は最高品質の日本製2Dゲームイラスト。繊細で明瞭な顔、左右の目の整合性、正しい手指と人体、シャープな線画、上品なセル塗り。各コマの人物を大きく描き、顔のディテールと一貫性を優先する。手足の増殖、顔の崩れ、足先の見切れ、コマの不足、追加人物、文字、数字、ロゴ、透かし、既存作品のキャラの模倣は禁止
+```
+
+#### 応用方法
+
+コマ範囲と一続きの動きの指定を残しながら、人物、最初の衣装、変身後のデザイン、エフェクトを置き換えます。先にシートを生成し、均等なセルへ切り分けてからGIFまたは動画に組み立ててください。
+
+**作者:** [あぎ](<https://x.com/agi_aibusi>)
+
+[Xの元投稿](<https://x.com/agi_aibusi/status/2098975357789446388>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#sixteen-frame-magical-transformation>)
+
 <a id="text-and-layout"></a>
 
 ## 文字・レイアウト
@@ -1719,6 +1846,26 @@ Create image of Magazine feature article [travel] guide page, cute, information 
 **作者:** [Min Choi](<https://x.com/minchoi>)
 
 [Xの元投稿](<https://x.com/minchoi/status/2097525572591136869>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#character-travel-magazine-guide>)
+
+<a id="ui-generation-model-quality-comparison"></a>
+
+### UI生成をGPT Image 2・Flare・Sunburstで比較する
+
+[![映画ポートフォリオの要件をGPT Image 2、Flare、Sunburstの品質設定別に比較したUIシート](<https://pbs.twimg.com/media/HRwbevKboAAn_By.jpg>)](<https://x.com/zemaj/status/2097581905034235906>)
+
+同じUI要件と順序付きの参照画像を使い、GPT Image 2とGPT Image 2.5 Flare／Sunburstを複数の品質設定で比較します。
+
+**モデル:** GPT Image 2, GPT Image 2.5 Flare, and GPT Image 2.5 Sunburst · **モード:** ワークフロー · **入力:** 4枚の画像
+
+_作者は、この事例で再利用できるプロンプトを公開していません。_
+
+#### 応用方法
+
+1つの要件と同じ参照画像セットを固定し、モデルまたは品質設定だけを変えます。1枚の結果だけで決めず、情報の階層、文字の正確さ、参照画像の使い方、コスト、待ち時間を比較してください。
+
+**作者:** [James Peter](<https://x.com/zemaj>)
+
+[Xの元投稿](<https://x.com/zemaj/status/2097581905034235906>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/gpt-image-2-5-prompts#ui-generation-model-quality-comparison>)
 
 <a id="sketch-to-image"></a>
 

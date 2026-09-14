@@ -9,15 +9,15 @@ A curated collection of reusable GPT Image 2.5 prompts and workflows shared by r
 
 **[Browse the visual gallery](<https://magiccreator.ai/gpt-image-2-5-prompts>)** · [Try GPT Image 2.5](<https://magiccreator.ai/model/gpt-image-2-5>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-gpt-image-2-5-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **65 curated prompts**, with sources reviewed through **2026-09-11**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **70 curated prompts**, with sources reviewed through **2026-09-14**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
-- [Precise edits](#precise-edits) (4)
+- [Precise edits](#precise-edits) (5)
 - [Products and ads](#product-and-ads) (2)
 - [Creative generation](#creative-generation) (24)
-- [Reference consistency](#reference-consistency) (22)
-- [Text and layout](#text-and-layout) (9)
+- [Reference consistency](#reference-consistency) (25)
+- [Text and layout](#text-and-layout) (10)
 - [Sketch to image](#sketch-to-image) (4)
 - [Suggest a prompt](#suggest-a-prompt)
 
@@ -144,6 +144,39 @@ Replace the audience and specify which copy must change. Explicitly lock the com
 **Shared by:** [ぽんず | AI映像](<https://x.com/ponzponz15>)
 
 [Original post on X](<https://x.com/ponzponz15/status/2097513870969688188>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#gender-perspective-poster-redesign>)
+
+<a id="opaque-hair-artifact-control"></a>
+
+### Reduce Hair Artifacts by Requiring Opaque Strands
+
+[![Close illustrated portrait with fine white hair rendered without noisy translucent overlaps](<https://pbs.twimg.com/media/HR-if58bkAAeV0p.jpg>)](<https://x.com/magu_ai_h/status/2098574625609601076>)
+
+Treat noisy-looking overlaps in fine illustrated hair as unwanted translucency, then explicitly keep every strand opaque and suppress lower layers.
+
+**Model:** GPT Image 2.5 · **Mode:** generate · **Inputs:** None
+
+#### Prompts
+
+**Original Japanese prompt** · `ja`
+
+```text
+髪は全て透過せず、下位レイヤーを描写しない
+髪の不透明度は100％とする
+```
+
+**English translation** · `en`
+
+```text
+Render all hair fully opaque; do not depict underlying layers. Set hair opacity to 100%.
+```
+
+#### How to adapt it
+
+Add the opacity constraint alongside your normal artifact-removal wording. Apply the same idea to other layered details only when see-through overlaps are the actual cause of the texture problem.
+
+**Shared by:** [magu@ai](<https://x.com/magu_ai_h>)
+
+[Original post on X](<https://x.com/magu_ai_h/status/2098574625609601076>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#opaque-hair-artifact-control>)
 
 <a id="product-and-ads"></a>
 
@@ -1504,6 +1537,100 @@ Replace both character descriptions, wardrobe and setting while keeping the four
 
 [Original post on X](<https://x.com/abxxai/status/2097698694296686623>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#character-sheets-to-realistic-video>)
 
+<a id="character-amateur-failure-photo-grid"></a>
+
+### Turn a Character Reference Into a Grid of Imperfect Snapshots
+
+[![Nine imperfect phone-photo compositions featuring the same illustrated character](<https://pbs.twimg.com/media/HSG6x91bwAA58uO.jpg>)](<https://x.com/8co28/status/2099164852560539975>)
+
+Use a single character reference to generate a 3×3 contact sheet of deliberately awkward amateur photos while preserving the character's identity and outfit.
+
+**Model:** GPT Image 2.5 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompts
+
+**Original Japanese prompt** · `ja`
+
+```text
+素人の失敗写真の数々、3×3、9:16
+```
+
+**English translation** · `en`
+
+```text
+A collection of failed amateur photos, arranged in a 3×3 grid at 9:16.
+```
+
+#### How to adapt it
+
+Attach one clear character or product reference and replace ‘failed amateur photos’ with a more specific capture style when needed, such as motion blur, accidental occlusion, bad framing or uneven exposure.
+
+**Shared by:** [852話(hakoniwa)](<https://x.com/8co28>)
+
+[Original post on X](<https://x.com/8co28/status/2099164852560539975>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#character-amateur-failure-photo-grid>)
+
+<a id="summer-vacation-game-cutscene-workflow"></a>
+
+### Build a Summer-Vacation Game Sequence From a Script
+
+[![Game-like summer vacation sequence with a child running through a coastal Japanese town](<https://pbs.twimg.com/amplify_video_thumb/2098994088112795648/img/PTauqoAIaii5EX8h.jpg>)](<https://x.com/muku_sns/status/2098994140310843550>)
+
+Generate six coherent game-like stills from a childhood summer-vacation script, then use them as references for a continuous video sequence.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+_The creator did not publish a reusable prompt for this example._
+
+#### How to adapt it
+
+Write a short script with recurring characters, location, season and interface motifs, then generate the key stills together before animating them. Keep the still-generation and video-generation prompts as separate stages.
+
+**Shared by:** [むく | AIアートのプロ](<https://x.com/muku_sns>)
+
+[Original post on X](<https://x.com/muku_sns/status/2098994140310843550>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#summer-vacation-game-cutscene-workflow>)
+
+<a id="sixteen-frame-magical-transformation"></a>
+
+### Create a Continuous 16-Frame Magical Transformation
+
+[![Four-by-four anime transformation sheet progressing from a white outfit to a dark magical form](<https://pbs.twimg.com/media/HSEO58wagAAsr9Y.jpg>)](<https://x.com/agi_aibusi/status/2098975357789446388>)
+
+Lay out a complete magical transformation as a 4×4 sequence, keeping one character recognizable as energy builds, the costume changes and the final poses settle.
+
+**Model:** GPT Image 2.5 · **Mode:** workflow · **Inputs:** None
+
+#### Prompt
+
+**Published Japanese prompt** · `ja`
+
+```text
+高品質な日本製2Dゲームアニメ風の「変身シーンの連続原画」1枚。横4列×縦4行、合計16コマを正確に等分し、左上から右下へ時系列で読めるようにする。16枚の無関係なポーズ集ではなく、同じ成人女性が一続きの動きで変身する。
+
+主人公は24歳の可愛い成人女性1人。シャンパンブロンドの短いアシンメトリーボブ、黒いリボン付きカチューシャ、大きな紫色の瞳、整った鼻と口、上品で愛嬌のある顔、健康的で女性らしい体型。全コマで同一人物と分かる顔立ち、頭身、体型を保ち、顔と目を最優先でシャープに美しく描く。正面の固定カメラ、全身を頭からブーツまで表示。背景は全コマ共通の淡いブルーグレーのスタジオ。細い区切り線のみ、文字は入れない。
+
+【1〜3コマ・変身前】白銀の刺繍とフリルがある白いコルセット風ミニドレス、白い独立した袖、黒い模様入りニーハイ、黒いバックル付きブーツ。金髪のまま床に両足をつけ、うつむいて拳を握る。紫色の火花が少しずつ増え、髪とスカートが風で浮き始める。
+
+【4〜6コマ・気を高める】膝を曲げて踏ん張り、肩と腕に力を込め、顔を上げる。黒紫とマゼンタのオーラが下から激しく噴き上がり、稲妻、黒い結晶、床の光の輪が増える。オーラの勢いで髪とスカートが大きく舞い上がる。毎コマ少しずつ強くし、同じエフェクトを複製しない。
+
+【7〜10コマ・長めの変身最高潮】歯を食いしばってから頭を反らして叫ぶ。4コマにわたり、オーラがさらに巨大になり、マゼンタの稲妻と黒紫の炎が連続して吹き荒れる。白い衣装の縫い目が光って裂け、白い布片とレースが段階的に四方へ飛び、10コマ目で最大の閃光と衝撃波が爆発する。魔法の黒い衣装が白い衣装と入れ替わる瞬間を連続的に描く。爆発中も顔と全身の輪郭が読めるようにする。
+
+【11〜12コマ・覚醒の余韻】白銀の髪、赤紫に光る瞳、小さな黒い角、小さなコウモリ風の翼、細い悪魔の尻尾が現れる。黒紫の炎と光の輪がまだ激しく回り、両足が床から離れ始める。表情は叫びから静かな驚きへ、そして余裕のある微笑みへ移る。
+
+【13〜16コマ・浮遊したまま可愛くポージング】変身後の姿を完全に統一。両方のブーツを床から明確に離し、足元に浮遊の影を描く。13コマ目は両腕を柔らかく開いて微笑む。14コマ目は片膝を可愛く曲げ、片手を頬に添える。15コマ目は軽くウインクしながら指先で小さなハートを作る。16コマ目は両手を広げてカメラへ向けていたずらっぽく微笑む。全コマで宙に浮いたまま、髪・翼・尻尾・スカートがゆっくり揺れ、オーラが周囲を巡る。各ポーズは自然につながり、人物の大きさと顔を変えない。
+
+【変身後の衣装】変身前と一目で違う、黒と濃いプラム色のデビル風ゲーム衣装。肩とウエストが見える、深めのネックラインの黒いストラップ付きビスチェ。腹部を見せ、脇に深いスリットの入った短い非対称の黒いフリルスカート。スカートの内側は不透明な黒いダンス用ショートパンツ。黒いニーハイ、黒いブーツ、細身の独立した袖。成人女性らしい魅力と可愛さを両立し、11〜16コマで衣装の形と色を変えない。
+
+画風は最高品質の日本製2Dゲームイラスト。繊細で明瞭な顔、左右の目の整合性、正しい手指と人体、シャープな線画、上品なセル塗り。各コマの人物を大きく描き、顔のディテールと一貫性を優先する。手足の増殖、顔の崩れ、足先の見切れ、コマの不足、追加人物、文字、数字、ロゴ、透かし、既存作品のキャラの模倣は禁止
+```
+
+#### How to adapt it
+
+Replace the character, initial costume, transformed design and effects while preserving explicit frame ranges and one continuous action. Generate the sheet first, then crop equal cells and assemble the GIF or video separately.
+
+**Shared by:** [あぎ](<https://x.com/agi_aibusi>)
+
+[Original post on X](<https://x.com/agi_aibusi/status/2098975357789446388>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#sixteen-frame-magical-transformation>)
+
 <a id="text-and-layout"></a>
 
 ## Text and layout
@@ -1719,6 +1846,26 @@ Replace the bracketed guide type, destination and page ratio, then attach a clea
 **Shared by:** [Min Choi](<https://x.com/minchoi>)
 
 [Original post on X](<https://x.com/minchoi/status/2097525572591136869>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#character-travel-magazine-guide>)
+
+<a id="ui-generation-model-quality-comparison"></a>
+
+### Compare UI Generation Across GPT Image 2, Flare and Sunburst
+
+[![UI comparison sheet for a film portfolio brief across GPT Image 2, Flare and Sunburst quality levels](<https://pbs.twimg.com/media/HRwbevKboAAn_By.jpg>)](<https://x.com/zemaj/status/2097581905034235906>)
+
+Compare the same UI briefs and ordered visual references across GPT Image 2 and GPT Image 2.5 Flare and Sunburst, including multiple quality levels.
+
+**Model:** GPT Image 2, GPT Image 2.5 Flare, and GPT Image 2.5 Sunburst · **Mode:** workflow · **Inputs:** 4 images
+
+_The creator did not publish a reusable prompt for this example._
+
+#### How to adapt it
+
+Keep one brief and the same ordered reference set fixed, then vary only the model or quality setting. Compare hierarchy, text accuracy, reference use, cost and latency rather than choosing from a single output.
+
+**Shared by:** [James Peter](<https://x.com/zemaj>)
+
+[Original post on X](<https://x.com/zemaj/status/2097581905034235906>) · [View in the MagicCreator gallery](<https://magiccreator.ai/gpt-image-2-5-prompts#ui-generation-model-quality-comparison>)
 
 <a id="sketch-to-image"></a>
 
